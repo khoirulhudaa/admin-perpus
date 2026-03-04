@@ -1,0 +1,330 @@
+.front-card {
+    width: 500px;
+    height: 300px;
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+}
+
+/* Logo sekolah tetap di kiri */
+.logo-container {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.school-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+/* Nama sekolah tetap di tengah */
+.school-info {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.school-info h2 {
+    font-size: 14px;
+    color: #0F2229;
+}
+
+.school-info p {
+    font-size: 8px;
+    color: #0F2229;
+    padding: 0 50px;
+}
+
+/* Kartu Pelajar */
+.title {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    margin-top: 16px;
+}
+
+/* Content */
+.content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+/* Foto Siswa */
+.photo-placeholder {
+    width: 100px; /* Lebar dan tinggi tetap untuk konsistensi */
+    height: 120px;
+    background-color: #e5e7eb;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 0; /* Mencegah penyusutan */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Info Siswa */
+.info {
+    font-size: 12px;
+    color: #333;
+    flex-grow: 1;
+    padding-left: 10px;
+    max-width: calc(100% - 130px); /* Batasi lebar info untuk memberi ruang pada gambar */
+}
+
+/* Grid untuk Info Siswa */
+.info-grid {
+    display: grid;
+    grid-template-columns: 85px 1fr; /* Kolom pertama tetap, kolom kedua fleksibel */
+    gap: 4px;
+}
+
+/* Label */
+.label {
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Value */
+.value {
+    text-align: left;
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* overflow-x: hidden; */
+    overflow-wrap: break-word;
+    word-wrap: break-word; /* atau gunakan overflow-wrap: break-word; */
+    text-overflow: ellipsis;
+    max-width: 220px; /* Batasi lebar value untuk alamat panjang */
+    /* background-color: red; */
+}
+
+/* Nama Siswa */
+.student-name {
+    font-size: 14px;
+    font-weight: bold;
+    height: max-content;
+    margin-bottom: 4px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px;
+}
+
+.qr-section {
+    text-align: center;
+    flex-shrink: 0; /* Mencegah QR menyusut */
+}
+
+.kepala-sekolah {
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+.qr-placeholder {
+    width: 40px;
+    height: 40px;
+    background-color: #e5e7eb;
+}
+
+.expired {
+    text-align: right;
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-bottom: 16px;
+    flex-shrink: 0; /* Mencegah expired menyusut */
+}
+
+/* 🔹 Mode Vertikal */
+.front-card.vertical {
+    width: 300px;
+    height: 500px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 15px;
+}
+
+/* 🔹 Header - Logo Sekolah */
+.front-card.vertical .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+/* 🔹 Logo Sekolah */
+.front-card.vertical .logo-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+/* 🔹 Kartu Pelajar Title */
+.front-card.vertical .title {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* 🔹 Foto Siswa */
+.photo-placeholder.vertical {
+    width: 100px; /* Konsisten dengan horizontal */
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #ff9800;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    margin: 10px 0; /* Hapus margin negatif untuk konsistensi */
+}
+
+/* 🔹 Nama Siswa */
+.student-name.vertical {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+    text-align: center;
+}
+
+/* 🔹 Tata Letak Informasi Siswa */
+.content.vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+}
+
+/* 🔹 Informasi Siswa */
+.info.vertical {
+    width: 100%;
+    padding: 0 10px;
+    max-width: 100%; /* Tidak perlu batasan ketat pada vertikal */
+}
+
+/* 🔹 Grid untuk Info Siswa */
+.info-grid.vertical {
+    display: grid;
+    grid-template-columns: 100px auto;
+    gap: 4px;
+    font-size: 12px;
+    color: #333;
+}
+
+/* 🔹 Label (NIS/NISN, TTL, dsb.) */
+.info-grid.vertical .label {
+    font-weight: bold;
+    text-align: left;
+}
+
+/* 🔹 Nilai (Data siswa) */
+.info-grid.vertical .value {
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+/* 🔹 Footer */
+.footer.vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* 🔹 Barcode */
+.barcode-placeholder {
+    margin: 10px 0;
+}
+
+/* 🔹 QR Code */
+.qr-section.vertical {
+    margin-top: 10px;
+}
+
+/* 🔹 Kepala Sekolah */
+.kepala-sekolah {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* 🔹 Berlaku Sampai */
+.expired.vertical {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+}

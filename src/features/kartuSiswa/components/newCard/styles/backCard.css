@@ -1,0 +1,176 @@
+.back-card {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    background-size: cover; /* ✅ Background tetap ada */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden; /* ✅ Mencegah elemen keluar dari batas kartu */
+}
+
+/* 🔹 Kontainer utama */
+.back-card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 16px;
+}
+
+.back-card-content2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 16px 0px;
+}
+
+/* 🔹 Judul Sekolah */
+.back-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 8px;
+}
+
+/* 🔹 VISI & MISI */
+.visi-misi {
+    flex: 1;
+    padding-right: 80px; /* ✅ Beri ruang agar QR tidak menutupi teks */
+}
+
+.visi-misi2 {
+    flex: 1;
+}
+
+.section-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #d97706;
+    margin-top: 8px;
+}
+
+.section-content {
+    font-size: 12px;
+    color: #374151;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.mission-list {
+    font-size: 12px;
+    color: #374151;
+    list-style-type: disc;
+    padding-left: 16px;
+    margin-top: 4px;
+    max-width: 350px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+/* 🔹 QR Code */
+.qr-logo-section {
+    position: absolute;
+    bottom: 20px;
+    right: 15px; /* ✅ QR Code lebih masuk ke dalam */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.back-card.vertical {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* 🔥 Layout berubah jadi column */
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.visi-misi.vertical {
+    padding: 10px;
+    max-width: 260px;
+}
+.qr-logo-section.vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    /* 🔥 QR Code berada di tengah */
+}
+/* 🔹 Memastikan QR Code berada di dalam kartu */
+.qr-logo-section.vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    /* 🔥 QR Code berada di tengah */
+}
+
+/* 🔹 QR Code Container */
+.qr-container {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.back-card.vertical {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* 🔥 Layout berubah jadi column */
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+/* 🔹 Visi & Misi pada Mode Vertikal */
+.visi-misi.vertical {
+    width: 100%;
+    /* ✅ Agar konten tidak menyempit */
+    text-align: left;
+    /* ✅ Rata kiri */
+    align-items: flex-start;
+    /* ✅ Konten tetap di kiri */   
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px;
+    /* ✅ Tambahkan padding kiri & kanan */
+}
+
+/* 🔹 Judul Visi & Misi di Mode Vertikal */
+.visi-misi.vertical .section-title {
+    text-align: left;
+    /* ✅ Rata kiri */
+}
+
+/* 🔹 Daftar Misi dalam Mode Vertikal */
+.visi-misi.vertical .mission-list {
+    text-align: left;
+    /* ✅ Rata kiri */
+    padding-left: 20px;
+    /* ✅ Sesuaikan indentasi */
+}
+    
+        /* 🔹 Title di mode vertikal */ 
+    .back-card.vertical .back-title {
+            font-size: 16px;
+            margin-bottom: 2px;
+        }

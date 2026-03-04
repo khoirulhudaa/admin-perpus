@@ -1,0 +1,37 @@
+.background-selector {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+        flex-direction: row;
+        /* Agar tetap sejajar di kiri */
+        width: 100%;
+}
+
+.background-selector h3 {
+    font-size: 16px;
+    font-weight: bold;
+  
+    color: #333;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* ✅ Menambahkan jarak antar tombol */
+}
+
+.button-group button {
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #f57c00; /* Warna oranye */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-group button:hover {
+    background-color: #e65100; /* Warna lebih gelap saat hover */
+}

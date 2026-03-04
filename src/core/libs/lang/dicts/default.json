@@ -1,0 +1,2650 @@
+{
+  "dashboard": {
+    "en": "HALAMAN UTAMA",
+    "id": "HALAMAN UTAMA"
+  },
+  "updateSchool": {
+    "en": "Update School",
+    "id": "Perbarui Data Sekolah"
+  },
+  "inactive": {
+    "en": "Inactive",
+    "id": "Tidak Aktif"
+  },
+  "loading": {
+    "en": "Loading",
+    "id": "Tunggu Sebentar"
+  },
+  "bibliografy": {
+    "en": "Bibliografy",
+    "id": "Bibliografi"
+  },
+  "peminjam": {
+    "en": "Borrower",
+    "id": "Peminjam"
+  },
+  "serial": {
+    "en": "BOOK SERIES",
+    "id": "SERIAL BUKU"
+  },
+  "invetory": {
+    "en": "INVENTORY",
+    "id": "INVENTARIS"
+  },
+  "report": {
+    "en": "Report Visit",
+    "id": "Laporan Kunjungan"
+  },
+  "signane": {
+    "en": "Digital Signane",
+    "id": "Digital Signane"
+  },
+  "eksemplar": {
+    "en": "Eksemplar",
+    "id": "Eksemplar"
+  },
+  "update": {
+    "en": "Update",
+    "id": "Perbarui"
+  },
+  "member": {
+    "en": "Member",
+    "id": "Status akun"
+  },
+  "trueMember": {
+    "en": "Member",
+    "id": "Member"
+  },
+  "noMember": {
+    "en": "Not a member",
+    "id": "Bukan member"
+  },
+  "goHome": {
+    "en": "Go home",
+    "id": "Pulang"
+  },
+  "urlYoutube1": {
+    "en": "First YouTube URL",
+    "id": "URL Youtube 1"
+  },
+  "urlYoutube2": {
+    "en": "Second YouTube URL",
+    "id": "URL Youtube 2"
+  },
+  "urlYoutube3": {
+    "en": "Third YouTube URL",
+    "id": "URL Youtube 3"
+  },
+  "inputURLYoutube1": {
+    "en": "First YouTube URL",
+    "id": "URL Youtube 1"
+  },
+  "inputURLYoutube2": {
+    "en": "Second YouTube URL",
+    "id": "URL Youtube 2"
+  },
+  "inputURLYoutube3": {
+    "en": "Third YouTube URL",
+    "id": "URL Youtube 3"
+  },
+  "activeStatus": {
+    "en": "Active Status",
+    "id": "Status Keaktifan"
+  },
+  "schoolStatus": {
+    "en": "School Status",
+    "id": "Status Sekolah"
+  },
+  "userNotAuthenticated": {
+    "en": "User Not Authenticated",
+    "id": "Pengguna Tidak Terautentikasi"
+  },
+  "updateRFID": {
+    "en": "Update RFID",
+    "id": "Perbarui RFID"
+  },
+  "enterRfid": {
+    "en": "Enter RFID",
+    "id": "Masukkan RFID"
+  },
+  "schoolDataUnavailable": {
+    "en": "School data unavailable",
+    "id": "Data sekolah tidak tersedia"
+  },
+  "schoolData": {
+    "en": "School Data",
+    "id": "Data Sekolah"
+  },
+  "frontLayer": {
+    "en": "Front Layer",
+    "id": "Layer Depan"
+  },
+  "backLayer": {
+    "en": "Back Layer",
+    "id": "Layer Belakang"
+  },
+  "card": {
+    "en": "Card",
+    "id": "Kartu"
+  },
+  "editEvent": {
+    "en": "Edit Event",
+    "id": "Ubah Acara"
+  },
+  "addEvent": {
+    "en": "Add Event",
+    "id": "Tambah Acara"
+  },
+  "noSignatureAvailable": {
+    "en": "No signature available",
+    "id": "Tidak ada tanda tangan yang tersedia"
+  },
+  "download": {
+    "en": "Download",
+    "id": "Unduh"
+  },
+  "searchStudentByName": {
+    "en": "Search student by name",
+    "id": "Cari nama siswa"
+  },
+  "downloadTemplateCourse": {
+    "en": "Download template",
+    "id": "Unduh template mata pelajaran"
+  },
+  "uploadExcelCourse": {
+    "en": "Import file excel",
+    "id": "Unggah file excel"
+  },
+  "downloadAttedance": {
+    "en": "Download",
+    "id": "Unduh"
+  },
+  "downloadAttedanceDay": {
+    "en": "Download (today)",
+    "id": "Unduh (harian)"
+  },
+  "visionMission": {
+    "en": "VISION MISSION",
+    "id": "VISI MISI"
+  },
+  "downloadAttedanceMonthly": {
+    "en": "Download attedance (month)",
+    "id": "Unduh laporan bulanan"
+  },
+  "studentCard": {
+    "en": "Student card",
+    "id": "Kartu siswa"
+  },
+  "chooseFormatToDownload": {
+    "en": "Choose format to download",
+    "id": "Pilih format untuk unduh"
+  },
+  "preview": {
+    "en": "Preview",
+    "id": "Pratinjau"
+  },
+  "import": {
+    "en": "Import File",
+    "id": "Masukkan file"
+  },
+  "generateCard": {
+    "en": "Generate Card",
+    "id": "Buat kartu"
+  },
+  "absenceManagement": {
+    "en": "Absence Management",
+    "id": "Manajemen Absensi"
+  },
+  "calendar": {
+    "en": "Calendar",
+    "id": "Kalender"
+  },
+  "presence": {
+    "en": "Presence",
+    "id": "Kehadiran"
+  },
+  "addAttendance": {
+    "en": "Add Attendance",
+    "id": "Tambah Kehadiran"
+  },
+  "class": {
+    "en": "CLASS MANAGEMENT",
+    "id": "MANAJEMEN KELAS"
+  },
+  "attendance": {
+    "en": "DATA ABSENCE",
+    "id": "DATA KEHADIRAN"
+  },
+  "leave": {
+    "en": "Leave",
+    "id": "Cuti"
+  },
+  "overtime": {
+    "en": "Overtime",
+    "id": "Lembur"
+  },
+  "evaluation": {
+    "en": "Evaluation",
+    "id": "Penilaian"
+  },
+  "correspondence": {
+    "en": "Correspondence",
+    "id": "Surat menyurat"
+  },
+  "dailyPresence": {
+    "id": "Absensi harian",
+    "en": "Daily presence"
+  },
+  "presentToday": {
+    "id": "Absen hari ini",
+    "en": "Present today"
+  },
+  "name": {
+    "id": "Nama",
+    "en": "Name"
+  },
+  "presentByMonth": {
+    "id": "Kehadiran Bulan",
+    "en": "Attendance in"
+  },
+  "presentByYear": {
+    "id": "Kehadiran Tahun",
+    "en": "Attendance in"
+  },
+  "daily": {
+    "id": "Harian",
+    "en": "Daily"
+  },
+  "monthly": {
+    "id": "Bulanan",
+    "en": "Monthly"
+  },
+  "attendanceRequest": {
+    "id": "Pengajuan kehadiran",
+    "en": "Attendance Request"
+  },
+  "myAccount": {
+    "en": "My Account",
+    "id": "Akun Saya"
+  },
+  "login": {
+    "en": "Login",
+    "id": "Masuk"
+  },
+  "accountInformation": {
+    "en": "Account Information",
+    "id": "Informasi  Akun"
+  },
+  "setting": {
+    "en": "Setting",
+    "id": "Pengaturan"
+  },
+  "logout": {
+    "en": "Logout",
+    "id": "Keluar"
+  },
+  "graduation": {
+    "en": "Graduation",
+    "id": "Kelulusan"
+  },
+  "downloadGraduation": {
+    "en": "Download Graduation",
+    "id": "Unduh data kelulusan"
+  },
+  "addGraduation": {
+    "en": "Add Graduation",
+    "id": "Tambah Kelulusan"
+  },
+  "liveAttendance": {
+    "en": "Live Attendance",
+    "id": "Live Attendance"
+  },
+  "allDays": {
+    "en": "All days",
+    "id": "Semua hari"
+  },
+  "senin": {
+    "en": "Monday",
+    "id": "Senin"
+  },
+  "selasa": {
+    "en": "Tuesday",
+    "id": "Selasa"
+  },
+  "rabu": {
+    "en": "Wednesday",
+    "id": "Rabu"
+  },
+  "kamis": {
+    "en": "Thursday",
+    "id": "Kamis"
+  },
+  "jumat": {
+    "en": "Friday",
+    "id": "Jumat"
+  },
+  "sabtu": {
+    "en": "Saturday",
+    "id": "Sabtu"
+  },
+  "lineHeight": {
+    "en": "Line height",
+    "id": "Jarak"
+  },
+  "updateCard": {
+    "en": "Update",
+    "id": "Perbarui"
+  },
+  "minggu": {
+    "en": "Sunday",
+    "id": "Minggu"
+  },
+  "searchCourse": {
+    "en": "Search course",
+    "id": "Cari mata pelajaran"
+  },
+  "selectTeacher": {
+    "en": "Select teacher",
+    "id": "Pilih guru"
+  },
+  "notFoundImage": {
+    "en": "No picture",
+    "id": "Tidak ada gambar"
+  },
+  "titleEvent": {
+    "en": "Title event",
+    "id": "Judul Event"
+  },
+  "description": {
+    "en": "Description",
+    "id": "Deskripsi"
+  },
+  "uploadImage": {
+    "en": "Upload image",
+    "id": "Upload gambar"
+  },
+  "uploadVideo": {
+    "en": "Upload video",
+    "id": "Upload video"
+  },
+  "video": {
+    "en": "Video",
+    "id": "Video"
+  },
+  "image": {
+    "en": "Image",
+    "id": "Gambar"
+  },
+  "optional": {
+    "en": "Optional",
+    "id": "Opsional"
+  },
+  "must": {
+    "en": "Must",
+    "id": "Wajib"
+  },
+  "masuk": {
+    "en": "Visit",
+    "id": "Berkunjung"
+  },
+  "createCourse": {
+    "en": "Create course",
+    "id": "Buat mata pelajaran"
+  },
+  "courseName": {
+    "en": "Course Name",
+    "id": "Nama mata pelajaran"
+  },
+  "createBulkCourses": {
+    "en": "Create course (Bulk)",
+    "id": "Buat mata pelajaran (Massal)"
+  },
+  "searchByNameOrNIS": {
+    "en": "Search by name or NIS",
+    "id": "Cari berdasarkan nama atau NIS"
+  },
+  "searchByNameOrNISNISN": {
+    "en": "Search by name or NIS/NISN",
+    "id": "Cari berdasarkan nama atau NIS/NISN"
+  },
+  "keluar": {
+    "en": "Go out",
+    "id": "Pergi"
+  },
+  "Library": {
+    "en": "Library",
+    "id" : "Perpustakaan"
+  },
+  "commandWord": {
+    "en": "Command word",
+    "id" : "Kata perintah"
+  },
+  "ListOfSubjects": {
+    "en": "List of subjects",
+    "id" : "Daftar mata pelajaran"
+  },
+  "ProfileInfo": {
+    "en": "Profile info",
+    "id" : "Info akun"
+  },
+  "StudentInfo": {
+    "en": "Student info 25503",
+    "id" : "Info siswa 25503"
+  },
+  "ListOfClasses": {
+    "en": "List of classes",
+    "id" : "Daftar kelas"
+  },
+  "CreateClass": {
+    "en": "Create a class",
+    "id" : "Buat kelas"
+  },
+  "ListOfEvents": {
+    "en": "List of events",
+    "id" : "Daftar acara"
+  },
+  "LibraryVisit": {
+    "en": "Visit history",
+    "id" : "Riwayat kunjungan"
+  },
+  "LibraryVisitLibrary": {
+    "en": "Visit history (library)",
+    "id" : "Riwayat kunjungan perpustakaan"
+  },
+  "libraryManagement": {
+    "en": "Library Management",
+    "id" : "Perpustakaan"
+  },
+  "forgotIdCard": {
+    "en": "Forgot ID Card",
+    "id": "Lupa ID Card"
+  },
+  "leaveRequest": {
+    "id": "Pengajuan Cuti",
+    "en": "Leave Request"
+  },
+  "overtimeRequest": {
+    "id": "Pengajuan Lembur",
+    "en": "Overtime Request"
+  },
+  "changePassword": {
+    "id": "Ganti Password",
+    "en": "Change Password"
+  },
+  "myProfile": {
+    "id": "Profil Saya",
+    "en": "My Profile"
+  },
+  "personalInformation": {
+    "id": "Informasi Akun",
+    "en": "Personal Informasi"
+  },
+  "fullName": {
+    "id": "Nama Lengkap",
+    "en": "Full Name"
+  },
+  "gender": {
+    "id": "Jenis Kelamin",
+    "en": "Gender"
+  },
+  "selectGender": {
+    "id": "Pilih Jenis Kelamin",
+    "en": "Select Gender"
+  },
+  "placeOfBirth": {
+    "id": "Tempat Lahir",
+    "en": "Place of Birth"
+  },
+  "dateOfBirth": {
+    "id": "Tanggal Lahir",
+    "en": "Date of Birth"
+  },
+  "religion": {
+    "id": "Agama",
+    "en": "Religion"
+  },
+  "maritalStatus": {
+    "id": "Status Perkawinan",
+    "en": "Marital Status"
+  },
+  "idCardAddress": {
+    "id": "Alamat KTP",
+    "en": "ID Card Address"
+  },
+  "currentAddress": {
+    "id": "Alamat Domisili",
+    "en": "D Card Address"
+  },
+  "personalData": {
+    "id": "Data Personal",
+    "en": "Personal Data"
+  },
+  "employmentData": {
+    "id": "Data Pegawai",
+    "en": "Employment Data"
+  },
+  "history": {
+    "id": "Riwayat",
+    "en": "HIstory"
+  },
+  "numberOfChildren": {
+    "id": "Jumlah Anak",
+    "en": "Number of Children"
+  },
+  "employmentInfo": {
+    "id": "Informasi Kepegawaian",
+    "en": "Employment Information"
+  },
+  "emplyeeId": {
+    "id": "ID Pegawai",
+    "en": "Employee ID"
+  },
+  "position": {
+    "id": "Jabatan",
+    "en": "Position"
+  },
+  "employmentStatus": {
+    "id": "Status Pegawai",
+    "en": "Employment Status"
+  },
+  "startDate": {
+    "id": "Tanggal Mulai",
+    "en": "Date Start"
+  },
+  "workPhone": {
+    "id": "Nomor Kantor",
+    "en": "Work Phone"
+  },
+  "division": {
+    "id": "Division",
+    "en": "Divisi"
+  },
+  "positionHistory": {
+    "id": "Riwayat Jabatan",
+    "en": "Position History"
+  },
+  "divisionHistory": {
+    "id": "Riwayat Divisi",
+    "en": "Division History"
+  },
+  "attendanceDetails": {
+    "id": "Detail Pengajuan",
+    "en": "Attendance Details"
+  },
+  "leaveDetails": {
+    "id": "Detail Cuti",
+    "en": "Leave Details"
+  },
+  "overtimeDetails": {
+    "id": "Detail Lembur",
+    "en": "Overtime Details"
+  },
+  "attendanceType": {
+    "id": "Tipe Hadir",
+    "en": "Attendance Type"
+  },
+  "attendanceDate": {
+    "id": "Tanggal Kehadiran",
+    "en": "Attendance Date"
+  },
+  "upAllClass": {
+    "id": "Naikkan semua Siswa",
+    "en": "Promote all Students"
+  },
+  "updateClass": {
+    "id": "Perbarui kelas",
+    "en": "Update class"
+  },
+  "upAllStudent": {
+    "id": "Naikkan semua siswa ke kelas baru",
+    "en": "Promote all students to new grades"
+  },
+  "nisn": {
+    "id": "NISN",
+    "en": "NISN"
+  },
+  "nis": {
+    "id": "NIS",
+    "en": "NIS"
+  },
+  "proofOfAttendance": {
+    "id": "Bukti Kehadiran",
+    "en": "Proof of Attendance"
+  },
+  "information": {
+    "id": "Keterangan",
+    "en": "Information"
+  },
+  "selectAttendanceType": {
+    "id": "Pilih Tipe Kehadiran",
+    "en": "Select Attendance Type"
+  },
+  "informationDetail": {
+    "id": "Berikan keterangan, alasan dan penjelasan terkait kehadiran",
+    "en": "Provide information, reasons and explanations regarding attendance"
+  },
+  "export": {
+    "id": "Ekspor",
+    "en": "Export"
+  },
+  "selectProvince": {
+    "id": "Pilih Provinsi",
+    "en": "Select Province"
+  },
+  "province": {
+    "id": "Provinsi",
+    "en": "Province"
+  },
+  "send": {
+    "id": "Kirim",
+    "en": "Send"
+  },
+  "fieldIsRequired": {
+    "id": "[field] harus di isi",
+    "en": "[field] is required"
+  },
+  "date": {
+    "id": "Tanggal",
+    "en": "Date"
+  },
+  "outOfTownServices": {
+    "id": "Dinas Keluar Kota",
+    "en": "Out of Town Services"
+  },
+  "creditOff": {
+    "id": "Credit Off",
+    "en": "Credit Off"
+  },
+  "success": {
+    "id": "Sukses",
+    "en": "Success"
+  },
+  "fail": {
+    "id": "Gagal",
+    "en": "Failed"
+  },
+  "successful": {
+    "id": "[context] berhasil!",
+    "en": "[context] is successfuly!"
+  },
+  "failed": {
+    "id": "[context] gagal, silahkan coba lagi!",
+    "en": "[context] is failed, please try again!"
+  },
+  "createRequest": {
+    "id": "Buat Pengajuan",
+    "en": "Create Request"
+  },
+  "search": {
+    "id": "Cari",
+    "en": "Search"
+  },
+  "searchLocation": {
+    "id": "Cari Lokasi",
+    "en": "Search Location"
+  },
+  "overtimeType": {
+    "id": "Tipe Lembur",
+    "en": "Overtime Type"
+  },
+  "overtimeDate": {
+    "id": "Tanggal Lembur",
+    "en": "Overtime Date"
+  },
+  "startHour": {
+    "id": "Jam Mulai",
+    "en": "Start Hour"
+  },
+  "endHour": {
+    "id": "Jam Selesai",
+    "en": "End Hour"
+  },
+  "afterWorkingHour": {
+    "id": "Sesudah Jam Kerja",
+    "en": "After Working Hour"
+  },
+  "beforeWorkingHour": {
+    "id": "Sebelum Jam Kerja",
+    "en": "Before Working Hour"
+  },
+  "weekend": {
+    "id": "Hari Libur",
+    "en": "Weekend"
+  },
+  "seeDetails": {
+    "id": "Lihat detail",
+    "en": "See Details"
+  },
+  "leaveType": {
+    "id": "Tipe Cuti",
+    "en": "Leave Type"
+  },
+  "leaveDate": {
+    "id": "Tanggal Cuti",
+    "en": "Leave Date"
+  },
+  "addDate": {
+    "id": "Tambah Tanggal",
+    "en": "Add Date"
+  },
+  "removeDate": {
+    "id": "Hapus Tanggal",
+    "en": "Remove Date"
+  },
+  "attendanceReview": {
+    "id": "Review Pengajuan Kehadiran",
+    "en": "Review Attendance Submission"
+  },
+  "emptyResult": {
+    "id": "Tidak ada data",
+    "en": "No Result"
+  },
+  "loadData": {
+    "id": "Sedang memuat data...",
+    "en": "Is now loading..."
+  },
+  "calculatingAttendanceData": {
+    "id": "Proses ambil data absen siswa",
+    "en": "Student absence data collection process"
+  },
+  "downloadPDFNormal": {
+    "id": "Unduh PDF",
+    "en": "Download PDF."
+  },
+  "downloadPDF": {
+    "id": "Unduh PDF",
+    "en": "Download PDF."
+  },
+  "loadDownload": {
+    "id": "Sedang mengunduh...",
+    "en": "Is now process..."
+  },
+  "approveAttendance": {
+    "id": "Pengajuan berhasil disetujui",
+    "en": "Request has been approved"
+  },
+  "rejectAttendance": {
+    "id": "Pengajuan berhasil ditolak",
+    "en": "Request has been rejected"
+  },
+  "leaveReview": {
+    "id": "Review Pengajuan Cuti",
+    "en": "Review Leave Submission "
+  },
+  "overtimeReview": {
+    "id": "Review Pengajuan Lembur",
+    "en": "Review Overtime Submission "
+  },
+  "overtimeReviewHistory": {
+    "id": "Riwayat Review Lembur",
+    "en": "Overtime Review History"
+  },
+  "leaveReviewHistory": {
+    "id": "Riwayat Review Cuti",
+    "en": "Leave Review History"
+  },
+  "attendanceReviewHistory": {
+    "id": "Riwayat Review Kehadiran",
+    "en": "Attendance Review History"
+  },
+  "waitingToReview": {
+    "id": "Menunggu Review",
+    "en": "Waiting To Review"
+  },
+  "employeeName": {
+    "id": "Nama Pegawai",
+    "en": "Employee Name"
+  },
+  "currentPassword": {
+    "id": "Kata Sandi Sekarang",
+    "en": "Current Password"
+  },
+  "inputCurrentPassword": {
+    "id": "Masukan kata sandi sekarang",
+    "en": "Input current password"
+  },
+  "newPassword": {
+    "id": "Kata Sandi Baru",
+    "en": "New Password"
+  },
+  "password": {
+    "id": "Kata Sandi",
+    "en": "Password"
+  },
+  "userId": {
+    "id": "Id pengguna",
+    "en": "userId"
+  },
+  "inputUserId": {
+    "id": "Masukan id pengguna",
+    "en": "Input userId"
+  },
+  "inputPassword": {
+    "id": "Masukan kata sandi",
+    "en": "Input password"
+  },
+  "inputNewPassword": {
+    "id": "Masukan kata sandi baru",
+    "en": "Input new password"
+  },
+  "confirmNewPassword": {
+    "id": "Konfirmasi Kata Sandi Baru",
+    "en": "Confirm New Password"
+  },
+  "confirmPassword": {
+    "id": "Konfirmasi Kata Sandi",
+    "en": "Confirm Password"
+  },
+  "inputConfirmPassword": {
+    "id": "Masukan ulang kata sandi",
+    "en": "Input confirm password"
+  },
+  "inputConfirmNewPassword": {
+    "id": "Masukan ulang kata sandi baru",
+    "en": "Input confirm new password"
+  },
+  "save": {
+    "id": "Simpan",
+    "en": "Save"
+  },
+  "invalidFileType": {
+    "id": "Jenis file tidak sesuai",
+    "en": "Invalid (type file)"
+  },
+  "passwordValidation1": {
+    "id": "Kata sandi harus terdiri dari minimal 8 karakter",
+    "en": "Password must be at least 8 characters long"
+  },
+  "passwordValidation2": {
+    "id": "Kata sandi harus mengandung setidaknya satu huruf kecil",
+    "en": "Password must contain at least one lowercase letter"
+  },
+  "passwordValidation3": {
+    "id": "Kata sandi harus mengandung setidaknya satu angka",
+    "en": "Password must contain at least one number"
+  },
+  "passwordValidation4": {
+    "id": "Kata sandi harus mengandung setidaknya satu huruf besar",
+    "en": "Password must contain at least one uppercase letter"
+  },
+  "passwordsDontMatch": {
+    "id": "Kata sandi tidak cocok",
+    "en": "Passwords don't match"
+  },
+  "errSystem": {
+    "id": "Terjadi kesalahan sistem, silahkan coba lagi setelah beberapa saat.",
+    "en": "Something wrong internal system, please try again later."
+  },
+  "welcomeBack": {
+    "id": "Selamat datang kembali!",
+    "en": "Welcome back!"
+  },
+  "welcome": {
+    "id": "Selamat datang",
+    "en": "Welcome"
+  },
+  "pleaseWait": {
+    "id": "Mohon menunggu...",
+    "en": "Please wait..."
+  },
+  "waitingApproval": {
+    "id": "Menunggu Persetujuan",
+    "en": "Waiting Approval"
+  },
+  "reviewSubmission": {
+    "id": "Review Pengajuan",
+    "en": "Review Submission"
+  },
+  "approvalHistory": {
+    "id": "Riwayat Persetujuan",
+    "en": "Approval History"
+  },
+  "profilePhotoChanged": {
+    "id": "Foto profile berhasil diubah",
+    "en": "Profile picture changed successfuly"
+  },
+  "employeeCalendar": {
+    "id": "Kalender Pegawai",
+    "en": "Employee Calendar"
+  },
+  "employeeId": {
+    "id": "ID Pegawai",
+    "en": "Employee ID"
+  },
+  "createSchedule": {
+    "id": "Buat Jadwal",
+    "en": "Create Schedule"
+  },
+  "createScheduleMapel": {
+    "id": "Buat jadwal baru",
+    "en": "Create new schedule"
+  },
+  "scheduleMapel": {
+    "id": "Jadwal mapel (demo)",
+    "en": "schedule of subjects"
+  },
+  "time": {
+    "id": "Jam",
+    "en": "Hour"
+  },
+  "nameMapel": {
+    "id": "Mata pelajaran",
+    "en": "Subject"
+  },
+  "nameTeacher": {
+    "id": "Guru",
+    "en": "Teacher"
+  },
+  "Licensing": {
+    "id": "Perizinan",
+    "en": "Licensing"
+  },
+  "upload": {
+    "id": "Kirim surat sekarang",
+    "en": "Send letter for dispensation"
+  },
+  "startDispen": {
+    "id": "Kirim surat sekarang",
+    "en": "Send letter for dispensation"
+  },
+  "endDispen": {
+    "id": "Kirim surat sekarang",
+    "en": "Send letter for dispensation"
+  },
+  "createDispen": {
+    "id": "Surat dispensasi siswa",
+    "en": "Making a dispensation"
+  },
+  "LicensingData": {
+    "id": "Data perizinan",
+    "en": "Licensing data"
+  },
+  "licensingSuccessCreate": {
+    "id": "Data perizinan berhasil dibuat",
+    "en": "Licensing data created successfully"
+  },
+  "licensingFailCreate": {
+    "id": "Data perizinan gagal dibuat",
+    "en": "Licensing data created fail"
+  },
+  "scheduleSuccessUpdate": {
+    "id": "Jadwal berhasil diperbarui",
+    "en": "Schedule update successfully"
+  },
+  "scheduleFailUpdate": {
+    "id": "Jadwal gagal dibuat",
+    "en": "Schedule update fail"
+  },
+  "scheduleSuccessCreate": {
+    "id": "Jadwal berhasil dibuat",
+    "en": "Schedule created successfully"
+  },
+  "scheduleLoadCreate": {
+    "id": "Jadwal sedang dibuat",
+    "en": "Schedule is being created"
+  },
+  "scheduleFailCreate": {
+    "id": "Jadwal gagal dibuat",
+    "en": "Schedule failed to create"
+  },
+  "actions": {
+    "id": "Aksi",
+    "en": "Actions"
+  },
+  "notYetIn": {
+    "id": "Belum masuk",
+    "en": "Not yet in"
+  },
+  "delay": {
+    "id": "Telat",
+    "en": "Delay"
+  },
+  "removeScheduleMapel": {
+    "id": "Hapus jadwal",
+    "en": "Remove schedule"
+  },
+  "updateScheduleMapel": {
+    "id": "Perbarui jadwal",
+    "en": "Update schedule"
+  },
+  "failScheduleMapel": {
+    "id": "Gagal ambil data jadwal",
+    "en": "Failed get schedule data"
+  },
+  "loadingScheduleMapel": {
+    "id": "Sedang memuat data jadwal",
+    "en": "Loading schedule data"
+  },
+  "employee": {
+    "id": "PEGAWAI",
+    "en": "EMPLOYEE"
+  },
+  "wfa": {
+    "id": "WFA/WFH (Remote)",
+    "en": "WFA/WFH (Remote)"
+  },
+  "dayoff": {
+    "id": "Day Off",
+    "en": "Day Off"
+  },
+  "weekday": {
+    "id": "Hari Kerja",
+    "en": "Week Days"
+  },
+  "scheduleType": {
+    "id": "Tipe Jadwal",
+    "en": "Schedule Type"
+  },
+  "selectScheduleType": {
+    "id": "Pilih tipe jadwal",
+    "en": "Select schedule type"
+  },
+  "selectDate": {
+    "id": "Pilih Tanggal",
+    "en": "Pick a Date"
+  },
+  "endDate": {
+    "id": "Tanggal Selesai",
+    "en": "End Date"
+  },
+  "selectEmployee": {
+    "id": "Pilih Pegawai",
+    "en": "Select Employee"
+  },
+  "selectAll": {
+    "id": "Pilih Semua",
+    "en": "Select All"
+  },
+  "selectStatus": {
+    "id": "Pilih Status",
+    "en": "Select Status"
+  },
+  "weekendStatus": {
+    "id": "Status Weekend",
+    "en": "Weekend Status"
+  },
+  "weekendFree": {
+    "id": "Libur hari sabtu dan minggu",
+    "en": "Day off at weekend"
+  },
+  "submit": {
+    "id": "Submit",
+    "en": "Submit"
+  },
+  "requestDate": {
+    "id": "Tanggal Pengajuan",
+    "en": "Request Date"
+  },
+  "evidence": {
+    "id": "Bukti",
+    "en": "Evidence"
+  },
+  "detail": {
+    "id": "PROFILE LENGKAP",
+    "en": "PROFILE DETAIL"
+  },
+  "first": {
+    "id": "Pertama",
+    "en": "First"
+  },
+  "last": {
+    "id": "Terakhir",
+    "en": "Last"
+  },
+  "data": {
+    "id": "Data",
+    "en": "Data"
+  },
+  "of": {
+    "id": "Of",
+    "en": "Dari"
+  },
+  "biodata": {
+    "id": "Biodata",
+    "en": "Biodata"
+  },
+  "editPR": {
+    "id": "Perbarui Tugas",
+    "en": "Work update"
+  },
+  "noData": {
+    "id": "Data tidak tersedia",
+    "en": "Data not available"
+  },
+  "filterNISorNISN": {
+    "id": "Cari NISN",
+    "en": "Filter by NISN"
+  },
+  "previous": {
+    "id": "Previous",
+    "en": "Sebelumnya"
+  },
+  "next": {
+    "id": "Next",
+    "en": "Selanjutnya"
+  },
+  "page": {
+    "id": "Page",
+    "en": "Halaman"
+  },
+  "show": {
+    "id": "Show",
+    "en": "Terlihat"
+  },
+  "dataManagement": {
+    "id": "Manajemen Data",
+    "en": "Data Management"
+  },
+  "attend": {
+    "id": "Masuk",
+    "en": "Attend"
+  },
+  "locationDistribution": {
+    "id": "Sebaran lokasi siswa",
+    "en": "Location distribution"
+  },
+  "school": {
+    "id": "Sekolah",
+    "en": "School"
+  },
+  "schoolDistribution": {
+    "id": "Sebaran Lokasi Siswa",
+    "en": "Student distribution"
+  },
+  "errorDuplicateCourse": {
+    "id": "Nama mata pelajaran sudah ada",
+    "en": "Duplicate course name"
+  },
+  "studentLocations": {
+    "id": "Lokasi siswa",
+    "en": "Student location"
+  },
+  "studentTotal": {
+    "id": "Jumlah seluruh siswa",
+    "en": "Total number of students"
+  },
+  "printCard": {
+    "id": "Kartu sekolah",
+    "en": "School card"
+  },
+  "successUpdateRFID": {
+    "id": "RFID berhasil diperbarui",
+    "en": "Update RFID successfully"
+  },
+  "failedUpdateRFID": {
+    "id": "Gagal memperbarui RFID",
+    "en": "Update RFID failed"
+  },
+  "teacherNull": {
+    "id": "Data guru tidak tersedia",
+    "en": "Teacher data is not available"
+  },
+  "tugas": {
+    "id": "MANAJEMEN TUGAS",
+    "en": "TASK MANAGEMENT"
+  },
+  "statistik": {
+    "id": "DATA STATISTIK",
+    "en": "STISTIC DATA"
+  },
+  "studentNull": {
+    "id": "Data siswa tidak tersedia",
+    "en": "Student data is not available"
+  },
+  "teacherCard": {
+    "id": "Kartu guru",
+    "en": "Teacher card"
+  },
+  "resetImage": {
+    "id": "Reset gambar",
+    "en": "Reset image"
+  },
+  "locationTotal": {
+    "id": "Total Titik Lokasi",
+    "en": "Total Location Points"
+  },
+  "student": {
+    "id": "MANAJEMEN SISWA",
+    "en": "STUDENTS MANAGEMENT"
+  },
+  "studentsPerClass": {
+    "id": "Siswa per-kelas",
+    "en": "Students by class"
+  },
+   "teacher": {
+    "id": "MANAJEMEN GURU",
+    "en": "TEACHERS MANAGEMENT"
+  },
+  "ReportOverview": {
+    "id": "Ikhtisar Laporan",
+    "en": "Report Overview"
+  },
+  "reportStudentToday": {
+    "id": "Laporan Kehadiran (Siswa) Hari ini",
+    "en": "Attendance Report (Students) Today"
+  },
+  "reportTeacherToday": {
+    "id": "Laporan Kehadiran (Guru) Hari ini",
+    "en": "Attendance Report (Teachers) Today"
+  },
+  "OverallReport": {
+    "id": "Laporan Keseluruhan",
+    "en": "Overall report"
+  },
+  "classRoom": {
+    "id": "Kelas (demo)",
+    "en": "Classrooms (demo)"
+  },
+  "archive": {
+    "id": "Arsip sekolah (demo)",
+    "en": "Archive (demo)"
+  },
+  "healt": {
+    "id": "Pelayanan kesehatan",
+    "en": "Xpresensi Health Bridge (XHB)"
+  },
+  "selectClassRoom": {
+    "id": "Pilih Kelas",
+    "en": "Select Classroom"
+  },
+  "parent": {
+    "id": "Orang Tua",
+    "en": "Parents"
+  },
+  "parentName": {
+    "id": "Nama Orang Tua",
+    "en": "Parent Name"
+  },
+  "editParent": {
+    "id": "Edit Orang Tua",
+    "en": "Update Parent"
+  },
+  "course": {
+    "id": "Mata Pelajaran (demo)",
+    "en": "Courses (demo)"
+  },
+  "moodle": {
+    "id": "Moodle",
+    "en": "Moodle"
+  },
+  "searchSchool": {
+    "id": "Cari sekolah...",
+    "en": "Search school..."
+  },
+  "addSchool": {
+    "id": "Tambah Sekolah",
+    "en": "Add school"
+  },
+  "editSchool": {
+    "id": "Edit Sekolah",
+    "en": "Update School"
+  },
+  "schoolCreationValidation1": {
+    "id": "Nama sekolah harus diisi",
+    "en": "School Name is required"
+  },
+  "schoolCreationValidation2": {
+    "id": "NPSN sekolah harus diisi",
+    "en": "School NPSN is required"
+  },
+  "schoolCreationValidation3": {
+    "id": "Admin sekolah harus diisi",
+    "en": "School admin is required"
+  },
+  "schoolCreationValidation4": {
+    "id": "Admin sekolah harus diisi",
+    "en": "School admin is required"
+  },
+  "schoolCreationValidation5": {
+    "id": "Email admin sekolah harus diisi",
+    "en": "School admin email is required"
+  },
+  "schoolCreationValidation6": {
+    "id": "Format email tidak valid, silahkan cek kembali!",
+    "en": "Invalid email format"
+  },
+  "schoolName": {
+    "id": "Nama Sekolah",
+    "en": "School Name"
+  },
+  "inputSchoolName": {
+    "id": "Masukan nama sekolah",
+    "en": "Insert school name"
+  },
+  "npsn": {
+    "id": "NPSN",
+    "en": "NPSN"
+  },
+  "admin": {
+    "id": "Admin",
+    "en": "Admin"
+  },
+  "latitude": {
+    "id": "Latitude",
+    "en": "Latitude"
+  },
+  "longitude": {
+    "id": "Longitude",
+    "en": "Longitude"
+  },
+  "howToUseMap": {
+    "id": "Geser untuk menggunakan peta",
+    "en": "Move to use map"
+  },
+  "adminName": {
+    "id": "Nama Admin",
+    "en": "Admin Name"
+  },
+  "alamatSekolah": {
+    "id": "Alamat Sekolah ",
+    "en": "School Address"
+  },
+  "inputAdminName": {
+    "id": "Masukan nama admin",
+    "en": "Insert admin name"
+  },
+  "adminEmail": {
+    "id": "Email Admin",
+    "en": "Admin Email"
+  },
+  "inputAdminEmail": {
+    "id": "Masukan email admin",
+    "en": "Insert admin email"
+  },
+  "moodleApiUrl": {
+    "id": "Url API Moodle",
+    "en": "Moodle API Url"
+  },
+  "inputMoodleApiUrl": {
+    "id": "Masukan Url API Moodle",
+    "en": "Inser Moodle API Url"
+  },
+  "tokenMoodle": {
+    "id": "Token Moodle",
+    "en": "Moodle Token"
+  },
+  "inputTokenMoodle": {
+    "id": "Masukan token moodle",
+    "en": "Insert moodle token"
+  },
+  "libraryServer": {
+    "id": "Server Perpustakaan",
+    "en": "Library Server"
+  },
+  "inputLibraryServer": {
+    "id": "Masukan server perpustakaan",
+    "en": "Insert library server"
+  },
+  "libraryName": {
+    "id": "Nama Perpustakaan",
+    "en": "Library Name"
+  },
+  "inputLibraryName": {
+    "id": "Masukan nama perpustakaan",
+    "en": "Insert library name"
+  },
+  "schoolInfo": {
+    "id": "Informasi Sekolah",
+    "en": "School Information"
+  },
+  "adminInfo": {
+    "id": "Informasi Admin",
+    "en": "Admin Information"
+  },
+  "otherInfo": {
+    "id": "Informasi Lainnya",
+    "en": "Other Information"
+  },
+  "chooseFile": {
+    "id": "Pilih Berkas",
+    "en": "Choose File"
+  },
+  "registerYourSchool": {
+    "id": "Registrasi Sekolah",
+    "en": "School Registration"
+  },
+  "signature": {
+    "id": "Tanda tangan kepala sekolah",
+    "en": "Signature"
+  },
+  "registerYourSchoolDesc": {
+    "id": "Isi formulir untuk mendaftarkan sekolah dan menggunakan KIRA Admin",
+    "en": "Use Kira in one sign up"
+  },
+  "register": {
+    "id": "Daftar",
+    "en": "Register"
+  },
+  "needHelp": {
+    "id": "Perlu bantuan?",
+    "en": "Need help?"
+  },
+  "contactUs": {
+    "id": "Hubungi kami",
+    "en": "Contact Us"
+  },
+  "verifyOtpSuccess": {
+    "id": "Verifikasi kode otp berhasil",
+    "en": "Otp Verification is success"
+  },
+  "verifyOtpFailed": {
+    "id": "Verifikasi kode otp gagal, silahkan coba lagi",
+    "en": "Otp Verification is failed, please try again"
+  },
+  "otpVerification": {
+    "id": "Verifikasi OTP",
+    "en": "OTP Verification "
+  },
+  "verifyOtp": {
+    "id": "Verifikasi OTP",
+    "en": "Verify OTP"
+  },
+  "otpVerificationDesc": {
+    "id": "Masukan kode OTP yang dikirim ke email anda",
+    "en": "Insert OTP Code from received email"
+  },
+  "notReceivedOtp": {
+    "id": "Tidak menerima kode OTP?",
+    "en": "Not receive OTP Code?"
+  },
+  "resend": {
+    "id": "Kirim Ulang",
+    "en": "Resend"
+  },
+  "center": {
+    "id": "Pusat",
+    "en": "Center"
+  },
+  "south": {
+    "id": "Selatan",
+    "en": "South"
+  },
+  "north": {
+    "id": "Utara",
+    "en": "North"
+  },
+  "west": {
+    "id": "Barat",
+    "en": "West"
+  },
+  "east": {
+    "id": "Timur",
+    "en": "East"
+  },
+  "schoolNotRegistered": {
+    "id": "Sekolah kamu belum terdaftar?",
+    "en": "Your school is not registered yet?"
+  },
+  "registerHere": {
+    "id": "Daftar disini",
+    "en": "Register Here"
+  },
+  "addClassroom": {
+    "id": "Tambah Kelas",
+    "en": "Add Classroom"
+  },
+  "classroom": {
+    "id": "Kelas",
+    "en": "Classroom"
+  },
+  "action": {
+    "id": "Action",
+    "en": "Aksi"
+  },
+  "updateSchoolData": {
+    "id": "Memperbarui data sekolah",
+    "en": "Updated school data"
+  },
+  "server1": {
+    "id": "Server 1",
+    "en": "Server 1"
+  },
+  "server2": {
+    "id": "Server 2",
+    "en": "Server 2"
+  },
+  "server3": {
+    "id": "Server 3",
+    "en": "Server 3"
+  },
+  "inputServer": {
+    "id": "Masukan data server",
+    "en": "Insert server data"
+  },
+  "saveChanges": {
+    "id": "Simpan Perubahan",
+    "en": "Save Changes"
+  },
+  "saving": {
+    "id": "Menyimpan...",
+    "en": "Saving..."
+  },
+  "deleteSchool": {
+    "id": "Hapus Sekolah",
+    "en": "Delete School"
+  },
+  "deleteConfirmation": {
+    "id": "Konfirmasi Penghapusan",
+    "en": "Delete Confirmation"
+  },
+  "delete": {
+    "id": "Hapus",
+    "en": "Delete"
+  },
+  "ok": {
+    "id": "Oke",
+    "en": "Okay"
+  },
+  "cancel": {
+    "id": "Kembali",
+    "en": "Cancel"
+  },
+  "deleteConfirmationDesc": {
+    "id": "Apakah anda yakin ingin menghapus data [context]? Data yang dihapus mungkin tidak bisa dimunculkan kembali dan mempengaruhi aplikasi.",
+    "en": "Are you sure you want to delete the [context] data? Deleted data may not be recoverable and could impact the application."
+  },
+  "deleteClassroom": {
+    "id": "Hapus Kelas",
+    "en": "Delete Classroom"
+  },
+  "dataSuccessDelete": {
+    "id": "Data [context] berhasil dihapus",
+    "en": "[context] data is deleted"
+  },
+  "dataSuccessDeleteStudent": {
+    "id": "Siswa berhasil dihapus",
+    "en": "Student is deleted"
+  },
+  "dataFailDelete": {
+    "id": "Tidak bisa menghapus data [context], silahkan coba lagi.",
+    "en": "Cannot delete [context] data, please try again."
+  },
+  "className": {
+    "id": "Nama Kelas",
+    "en": "Class Name"
+  },
+  "level": {
+    "id": "Tingkat",
+    "en": "Level"
+  },
+  "successCreate": {
+    "id": "Data [context] berhasil ditambahkan.",
+    "en": "[context] data has been successfully created."
+  },
+  "failCreate": {
+    "id": "Data [context] gagal ditambahkan.",
+    "en": "Failed to create [context] data."
+  },
+  "failedGeneratePDF": {
+    "id": "Gagal membuat PDF, silakan coba lagi.",
+    "en": "Failed to generate PDF, please try again."
+  },
+  "successDownloadPDF": {
+    "id": "Berhasil membuat PDF.",
+    "en": "Failed to create PDF, please try again."
+  },
+  "successUpdate": {
+    "id": "Data [context] berhasil diperbarui.",
+    "en": "[context] data has been successfully updated."
+  },
+  "failUpdate": {
+    "id": "Data [context] gagal diperbarui.",
+    "en": "Failed to update [context] data."
+  },
+  "add": {
+    "id": "Tambah",
+    "en": "Add"
+  },
+  "addWithContext": {
+    "id": "Tambah [context]",
+    "en": "Add [context]"
+  },
+  "inputClassname": {
+    "id": "Masukan nama kelas",
+    "en": "Insert class name"
+  },
+  "selectLevel": {
+    "id": "Pilih tingkatan kelas",
+    "en": "Select level"
+  },
+  "selectSchool": {
+    "id": "Pilih Sekolah",
+    "en": "Select School"
+  },
+  "editClassroom": {
+    "id": "Edit Kelas",
+    "en": "Edit Classroom"
+  },
+  "needActiovation": {
+    "id": "User harus diaktifkasi oleh Admin",
+    "en": "User need to be actiovation"
+  },
+  "deleteCourse": {
+    "id": "Hapus Mata Pelajaran",
+    "en": "Delete Course"
+  },
+  "sholatSchedule": {
+    "id": "Jadwal sholat",
+    "en": "Sholat schedule"
+  },
+  "errorFetchLocations": {
+    "id": "Gagal dapatkan lokas",
+    "en": "Failed to fetch location statistics"
+  },
+  "filterRating": {
+    "id": "Filter berdasarkan rating",
+    "en": "Filter by rating"
+  },
+  "notFoundDataByClass": {
+    "id": "Belum ada kehadiran untuk kelas ini",
+    "en": "There is no attendance for this class"
+  },
+  "errorFetchStats": {
+    "id": "Gagal dapatkan statistik buku",
+    "en": "Failed to fetch book statisticss"
+  },
+  "updateEvent": {
+    "id": "Berhasil perbarui acara",
+    "en": "Event updated successfully"
+  },
+  "inputCourse": {
+    "id": "Masukan nama mata pelajaran",
+    "en": "Insert course name"
+  },
+  "completeDataCourse": {
+    "id": "Lengkapi data mata pelajaran",
+    "en": "Complete the subject data"
+  },
+  "completeDataClassroom": {
+    "id": "Lengkapi data kelas",
+    "en": "Complete the class data"
+  },
+  "selectClassroom": {
+    "id": "Pilih kelas",
+    "en": "Choose classroom"
+  },
+  "addCourse": {
+    "id": "Tambah Mata Pelajaran",
+    "en": "Add Course"
+  },
+  "editCourse": {
+    "id": "Edit Mata Pelajaran",
+    "en": "Edit Course"
+  },
+  "schoolDetail": {
+    "id": "Detail Sekolah",
+    "en": "School Detail"
+  },
+  "status": {
+    "id": "Status",
+    "en": "Status"
+  },
+  "allStatus": {
+    "id": "Semua Status",
+    "en": "All Status"
+  },
+  "openMap": {
+    "id": "Buka Peta",
+    "en": "Open Map"
+  },
+  "studentDetail": {
+    "id": "Detail Siswa",
+    "en": "Student Detail"
+  },
+  "address": {
+    "id": "Alamat",
+    "en": "Address"
+  },
+  "inputaddress": {
+    "id": "Masukan Alamat",
+    "en": "Insert address"
+  },
+  "hobby": {
+    "id": "Hobi",
+    "en": "Hobby"
+  },
+  "teacherDetail": {
+    "id": "Detail Guru",
+    "en": "Teacher Detail"
+  },
+  "classroomDetail": {
+    "id": "Detail Kelas",
+    "en": "Classroom Detail"
+  },
+  "shouldClassroom": {
+    "id": "Anda perlu membuat kelas dulu",
+    "en": "You need to create a class first"
+  },
+  "apply": {
+    "id": "Terapkan",
+    "en": "Apply"
+  },
+  "reset": {
+    "id": "Reset",
+    "en": "Reset"
+  },
+  "schoollogo": {
+    "id": "Logo Sekolah",
+    "en": "School Logo"
+  },
+  "fileValidation ": {
+    "id": "Hanya file jpg/jpeg/png yang diperbolehkan",
+    "en": "Only jpg/jpeg/png files are allowed"
+  },
+  "schoollogoNew": {
+    "id": "Logo Sekolah (masukan gambar jika ingin perbarui logo)",
+    "en": "School Logo (insert image if you want to update the logo)"
+  },
+  "schoollogoOld": {
+    "id": "Logo Sekolah (Versi lama)",
+    "en": "School Logo (Old version)"
+  },
+  "withoutSchoolLogo": {
+    "id": "Belum memiliki logo sekolah",
+    "en": "Doesn't have a school logo yet"
+  },
+  "adminManagement": {
+    "id": "PENGGUNA AKUN",
+    "en": "ACCOUNT MANAGEMENT"
+  },
+  "formatManagement": {
+    "id": "Manajemen Format",
+    "en": "Format Management"
+  },
+  "formatPDF": {
+    "id": "Format SKL",
+    "en": "SKL Format"
+  },
+  "scan": {
+    "id": "SCAN - KEHADIRAN",
+    "en": "ATTEDANCE - SCAN"
+  },
+  "manualAttendance": {
+    "id": "Absen manual siswa",
+    "en": "Manual absence student"
+  },
+  "manualAttendanceTeacher": {
+    "id": "Absen manual guru",
+    "en": "Manual absence teacher"
+  },
+  "manualAbsence": {
+    "id": "Absen manual",
+    "en": "Manual absence"
+  },
+  "studentAbsence": {
+    "id": "DATA KEHADIRAN",
+    "en": "DATA ABSENCE"
+  },
+  "userAdmin": {
+    "id": "Pengguna Admin",
+    "en": "Admin User"
+  },
+  "role": {
+    "id": "Peran",
+    "en": "Role"
+  },
+  "asset": {
+    "id": "Aset & infrastruktur (demo)",
+    "en": "Asset & infrastructure (demo)"
+  },
+  "isVerified": {
+    "id": "Terverifikasi",
+    "en": "Is Verified"
+  },
+  "TU": {
+    "id": "Tata usaha (demo)",
+    "en": "Administration (demo)"
+  },
+  "lastLogin": {
+    "id": "Login Terakhir",
+    "en": "Last Login"
+  },
+  "isNotVerified": {
+    "id": "Tidak Terverifikasi",
+    "en": "Not Verified"
+  },
+  "editUserAdmin": {
+    "id": "Edit Pengguna Admin",
+    "en": "Edit User Admin"
+  },
+  "active": {
+    "id": "Aktif",
+    "en": "Active"
+  },
+  "nonActive": {
+    "id": "Tidak Aktif",
+    "en": "Non-Active"
+  },
+  "studentData": {
+    "id": "Data  Siswa",
+    "en": "Student Data"
+  },
+  "studentName": {
+    "id": "Nama Siswa",
+    "en": "Student Name"
+  },
+  "email": {
+    "id": "Email",
+    "en": "Email"
+  },
+  "studentInfo": {
+    "id": "Informasi Siswa",
+    "en": "Student information"
+  },
+  "today": {
+    "id": "Hari ini",
+    "en": "Today"
+  },
+  "refresh": {
+    "id": "Muat ulang data",
+    "en": "Refresh data"
+  },
+  "noReport": {
+    "id": "Tidak ada data",
+    "en": "No data"
+  },
+  "historyPresence": {
+    "id": "Riwayat Kehadiran",
+    "en": "History Presences"
+  },
+  "dailyPresences": {
+    "id": "Kehadiran Harian",
+    "en": "Daily Presences"
+  },
+  "coursePresences": {
+    "id": "Kehadiran Mata Pelajaran",
+    "en": "Course Presences"
+  },
+  "clockIn": {
+    "id": "Jam Masuk",
+    "en": "Clock In"
+  },
+  "allClassRoom": {
+    "id": "Semua kelas",
+    "en": "All classroom"
+  },
+  "historyPresencce": {
+    "id": "Riwayat Kehadiran",
+    "en": "Attendance History"
+  },
+  "day": {
+    "id": "Hari",
+    "en": "Day"
+  },
+  "waitingPresence": {
+    "id": "Menunggu data absensi...",
+    "en": "Waiting for attendance data..."
+  },
+  "tryAgain": {
+    "id": "Coba lagi",
+    "en": "Try again"
+  },
+  "thisYear": {
+    "id": "Tahun ini",
+    "en": "This year"
+  },
+  "allTeachers": {
+    "id": "Semua guru",
+    "en": "All teachers"
+  },
+  "expired": {
+    "id": "Kadaluwarsa",
+    "en": "Expired"
+  },
+  "task": {
+    "id": "Pekerjaan rumah",
+    "en": "Homework"
+  },
+  "yearly": {
+    "id": "Tahunan",
+    "en": "Yearly"
+  },
+  "progress": {
+    "id": "Memproses...",
+    "en": "Progress..."
+  },
+  "thisMonth": {
+    "id": "Bulan ini",
+    "en": "This month"
+  },
+  "thisDay": {
+    "id": "Hari ini",
+    "en": "Today"
+  },
+  "allCourse": {
+    "id": "Semua mata pelajaran",
+    "en": "All course"
+  },
+  "close": {
+    "id": "Tutup",
+    "en": "Close"
+  },
+  "clockOut": {
+    "id": "Jam Pulang",
+    "en": "Clock Out"
+  },
+  "out": {
+    "id": "PULANG",
+    "en": "GO HOME"
+  },
+  "studentOut": {
+    "id": "Pulang",
+    "en": "Go home"
+  },
+  "presenceType": {
+    "id": "Tipe Kehadiran",
+    "en": "Presence Type"
+  },
+  "presenceStatus": {
+    "id": "Status Kehadiran",
+    "en": "Presence Status"
+  },
+  "hour": {
+    "id": "Jam",
+    "en": "Hour"
+  },
+  "editStudent": {
+    "id": "Edit Siswa",
+    "en": "Edit Student"
+  },
+  "inputStudentName": {
+    "id": "Masukan nama siswa",
+    "en": "Insert student name"
+  },
+  "male": {
+    "id": "Laki-laki",
+    "en": "Male"
+  },
+  "female": {
+    "id": "Perempuan",
+    "en": "Female"
+  },
+  "inputEmail": {
+    "id": "Masukan email",
+    "en": "insert Email"
+  },
+  "inputNIK": {
+    "id": "Masukan NIK",
+    "en": "insert NIK"
+  },
+  "inputRFID": {
+    "id": "Masukan RFID",
+    "en": "Insert RFID"
+  },
+  "inputNIS": {
+    "id": "Masukan NIS",
+    "en": "Input NIS"
+  },
+  "inputNISN": {
+    "id": "Masukan NISN",
+    "en": "Input NISN"
+  },
+  "inputNIP": {
+    "id": "Masukan NIP",
+    "en": "Input NIP"
+  },
+  "inputNRK": {
+    "id": "Masukan NRK",
+    "en": "Input NRK"
+  },
+  "inputNIKKI": {
+    "id": "Masukan NIKKI",
+    "en": "Input NIKKI"
+  },
+  "input": {
+    "id": "Masukan NIKKI",
+    "en": "Input NIKKI"
+  },
+  "noHP": {
+    "id": "No. Telp",
+    "en": "No. Telp"
+  },
+  "inputNoHP": {
+    "id": "Masukan nomor telepon",
+    "en": "Insert phone number"
+  },
+  "verificationStatus": {
+    "id": "Status Verifikasi",
+    "en": "Verification Status"
+  },
+  "deviceId": {
+    "id": "ID Perangkat",
+    "en": "Device ID"
+  },
+  "lastLocation": {
+    "id": "Lokasi Terakhir",
+    "en": "Last Location"
+  },
+  "seeOnMap": {
+    "id": "Lihat Peta",
+    "en": "Open in Map"
+  },
+  "teacherName": {
+    "id": "Nama Guru",
+    "en": "Teacher Name"
+  },
+  "editTeacher": {
+    "id": "Edit Guru",
+    "en": "Edit Teacher"
+  },
+  "inputTeacherName": {
+    "id": "Masukan Nama Guru",
+    "en": "Insert teacher name"
+  },
+  "codeIsRequired": {
+    "id": "Kode harus diisi",
+    "en": "Code is required"
+  },
+  "updateLetterData": {
+    "id": "Berhasil perbarui format surat",
+    "en": "Successfully updated mail format"
+  },
+  "updateLetter": {
+    "id": "Perbarui format surat",
+    "en": "Update letter format"
+  },
+  "letterHead": {
+    "id": "Kop surat",
+    "en": "Letter head"
+  },
+  "removeLetterHead": {
+    "id": "Hapus kop surat",
+    "en": "Remove the letter head"
+  },
+  "uploadLetterHead": {
+    "id": "Kop surat harus diisi",
+    "en": "The title of the letter must be filled in"
+  },
+  "barcode": {
+    "id": "Barcode",
+    "en": "Barcode"
+  },
+  "removeBarcode": {
+    "id": "Hapus barcode",
+    "en": "Remove the barcode"
+  },
+  "uploadBarcode": {
+    "id": "Masukan barcode",
+    "en": "Enter the barcode"
+  },
+  "principalName": {
+    "id": "Nama kepala sekolah",
+    "en": "Principal name"
+  },
+  "inputPrincipalName": {
+    "id": "Masukan nama kepala sekolah",
+    "en": "Enter the name of the principal"
+  },
+  "cardStudentFormat": {
+    "id": "Format kartu siswa",
+    "en": "Student Card Format"
+  },
+  "inputVisiMisi": {
+    "id": "Masukkan visi misi",
+    "en": "Input visi misi"
+  },
+  "updateCardStudentFormat": {
+    "id": "Perbarui format kartu siswa",
+    "en": "Update format student card"
+  },
+  "letterFormat": {
+    "id": "Format surat",
+    "en": "Format letter"
+  },
+  "letterTitle": {
+    "id": "Judul surat",
+    "en": "Letter head"
+  },
+  "inputLetterTitle": {
+    "id": "Masukan judul surat",
+    "en": "Enter the name of the principal"
+  },
+  "currentSignature": {
+    "id": "Tanda tangan (versi lama)",
+    "en": "New signature (old version)"
+  },
+  "newSignature": {
+    "id": "Tanda tangan baru (versi baru) - opsional",
+    "en": "New signature (new version) - optional"
+  },
+  "principalNameRequired": {
+    "id": "Nama kepala sekolah harus diisi",
+    "en": "The name of the principal must be filled in"
+  },
+  "letterNameRequired": {
+    "id": "Judul surat harus diisi",
+    "en": "Enter the title of the letter"
+  },
+  "invalidCode": {
+    "id": "Kode tidak valid",
+    "en": "Invalid code"
+  },
+  "users": {
+    "id": "Pengguna",
+    "en": "Users"
+  },
+  "products": {
+    "id": "Produk",
+    "en": "Products"
+  },
+  "agents": {
+    "id": "Agen",
+    "en": "Agents"
+  },
+  "transactions": {
+    "id": "Transaksi",
+    "en": "Transactions"
+  },
+  "orders": {
+    "id": "Order",
+    "en": "Orders"
+  },
+  "userData": {
+    "id": "Data Pengguna",
+    "en": "User Data"
+  },
+  "application": {
+    "id": "Aplikasi",
+    "en": "Application"
+  },
+  "editUser": {
+    "id": "Edit data pengguna",
+    "en": "Edit User"
+  },
+  "edit": {
+    "id": "Ubah",
+    "en": "Edit"
+  },
+  "parentDetail": {
+    "id": "Detail Orang Tua",
+    "en": "Parent Detail"
+  },
+  "loadingData": {
+    "id": "Data Anda sedang dimuat, mohon tunggu sebentar.",
+    "en": "Your data is being loaded, please wait a moment."
+  },
+  "totalStudents": {
+    "id": "Jumlah Siswa",
+    "en": "Total Students"
+  },
+  "totalData": {
+    "id": "Total",
+    "en": "Total"
+  },
+  "incomingAbsenceData": {
+    "id": "Total Data Hadir",
+    "en": "Incoming Absence Data"
+  },
+  "sicknessAbsenceData": {
+    "id": "Total Data Sakit",
+    "en": "Sickness Absence Data"
+  },
+  "selectJakartaArea": {
+    "id": "Pilih Wilayah Jakarta",
+    "en": "Select the Jakarta area"
+  },
+  "AbsenteeDataAbsent": {
+    "id": "Total Data Alpa",
+    "en": "Absentee Data Absent"
+  },
+  "selectCourse": {
+    "id": "Pilih mata pelajaran",
+    "en": "Select course"
+  },
+  "searchTeacher": {
+    "id": "Cari Guru...",
+    "en": "Search teacher..."
+  },
+  "DownloadTemplateExcel": {
+    "id": "Unduh Template Excel",
+    "en": "Download template excel"
+  },
+  "totalClass": {
+    "id": "Jumlah kelas",
+    "en": "Total class"
+  },
+  "or": {
+    "id": "Atau",
+    "en": "Or"
+  },
+  "and": {
+    "id": "Dan",
+    "en": "And"
+  },
+  "uploadExcel": {
+    "id": "Unggah file Excel",
+    "en": "Upload file Excel"
+  },
+  "confirmDeleteTitle": {
+    "id": "Konfirmasi hapus",
+    "en": "Confirm delete"
+  },
+  "confirmDeleteStudent": {
+    "id": "Kamu yakin akan menghapus data siswa ini?",
+    "en": "Are you sure you want to delete this student's data?"
+  },
+  "confirm": {
+    "id": "Konfirmasi",
+    "en": "Confirm"
+  },
+  "toolsOther": {
+    "id": "Xpresensi lainnya",
+    "en": "Other Xpresensi"
+  },
+  "profileSchool": {
+    "id": "PROFIL SEKOLAH",
+    "en": "PROFILE SCHOOL"
+  },
+  "osis": {
+    "id": "ORGANISASI OSIS",
+    "en": "OSIS ORAGANIZATION"
+  },
+  "facility": {
+    "id": "FASILITAS",
+    "en": "FACILITY"
+  },
+  "vote": {
+    "id": "VOTING OSIS",
+    "en": "OSIS VOTE"
+  },
+  "partner": {
+    "id": "PARTNER",
+    "en": "PARTNER"
+  },
+  "organization": {
+    "id": "ORGANISASI",
+    "en": "ORGANIZATION"
+  },
+  "rating": {
+    "id": "ULASAN",
+    "en": "RATINGS"
+  },
+  "ppdb": {
+    "id": "PPDB",
+    "en": "PPDB"
+  },
+  "permohonan": {
+    "id": "Permohonan",
+    "en": "Application"
+  },
+  "websiteSchool": {
+    "id": "WEBSITE SEKOLAH",
+    "en": "SCHOOL WEBSITE"
+  },
+  "slider": {
+    "id": "Slide",
+    "en": "Custom slide"
+  },
+  "sambutan": {
+    "id": "Sambutan",
+    "en": "Welcome"
+  },
+  "ppid": {
+    "id": "PPID",
+    "en": "PPID"
+  },
+  "spmb": {
+    "id": "SPMB",
+    "en": "SPMB"
+  },
+  "tema": {
+    "id": "Tema web",
+    "en": "Web theme"
+  },
+  "galeri": {
+    "id": "GALERI",
+    "en": "GALLERY"
+  },
+  "layanan": {
+    "id": "LAYANAN",
+    "en": "SERVICES"
+  },
+  "program": {
+    "id": "PROGRAM",
+    "en": "PROGRAM"
+  },
+  "beranda": {
+    "id": "BERANDA",
+    "en": "HOMEPAGE"
+  },
+  "infoPramuka": {
+    "id": "INFO PRAMUKA",
+    "en": "SCOUT INFORMATION"
+  },
+  "cardPramuka": {
+    "id": "Kartu anggota",
+    "en": "Member card"
+  },
+  "pramuka": {
+    "id": "PRAMUKA",
+    "en": "SCOUT"
+  },
+  "anggota": {
+    "id": "Anggota",
+    "en": "Member"
+  },
+  "galeriPramuka": {
+    "id": "GALERI PRAMUKA",
+    "en": "GALLERY PRAMUKA"
+  },
+  "visiMisi": {
+    "id": "VISI & MISI",
+    "en": "VISSION & MISSION"
+  },
+  "kurikulum": {
+    "id": "KURIKULUM",
+    "en": "CURRICULUM"
+  },
+  "kalender": {
+    "id": "KALENDER",
+    "en": "CALENDAR"
+  },
+  "feed": {
+    "id": "FEED IG",
+    "en": "FEED IG"
+  },
+  "jadwalsd": {
+    "id": "JADWAL SD",
+    "en": "SD SCHEDULE"
+  },
+  "jadwal": {
+    "id": "JADWAL SLTA",
+    "en": "SCHEDULE"
+  },
+  "pengumuman": {
+    "id": "PENGUMUMAN",
+    "en": "ANNOUNTMENT"
+  },
+  "berita": {
+    "id": "BERITA",
+    "en": "NEWS"
+  },
+  "guruTendik": {
+    "id": "GURU & TENDIK",
+    "en": "TEACHER & STAFF"
+  },
+  "toolsOtherTitle": {
+    "id": "Aplikasi Xpresensi dan manual penggunaan",
+    "en": "Other Xpresensi Apps and guide"
+  },
+  "xpresensiList": {
+    "id": "Daftar aplikasi",
+    "en": "Application list"
+  },
+  "ekstra": {
+    "id": "EKSTRAKURIKULER",
+    "en": "EXTRACURRICULAR"
+  },
+  "alumni": {
+    "id": "BUKU ALUMNI",
+    "en": "BOOK ALUMNI"
+  },
+  "sejarah": {
+    "id": "SEJARAH",
+    "en": "HISTORY"
+  },
+  "prestasi": {
+    "id": "PRESTASI",
+    "en": "PERFORMANCES"
+  },
+  "NotFoundValid": {
+    "id": "Nama mapel/kelas tidak ada yang valid",
+    "en": "There is no valid subject/class name"
+  },
+  "development": {
+    "id": "[Status]: proses pengembangan",
+    "en": "[status]: in development"
+  },
+  "classNotValid": {
+    "id": "Nama kelas tidak sesuai",
+    "en": "The class name does not match"
+  },
+  "uploadExcelClass": {
+    "id": "Unggah kelas dari Excel",
+    "en": "Upload class from Excel."
+  },
+  "selectFileExcel": {
+    "id": "Pilih file excel",
+    "en": "Select file excel"
+  },
+  "selectDay": {
+    "id": "Pilih hari",
+    "en": "Select day"
+  },
+  "editSchedule": {
+    "id": "Perbarui jadwal",
+    "en": "Edit jadwal"
+  },
+  "absentee": {
+    "id": "Alpa",
+    "en": "Absentee"
+  },
+  "sickness": {
+    "id": "Sakit",
+    "en": "Sickness"
+  },
+  "dispensation": {
+    "id": "Dispensasi",
+    "en": "Dispensation"
+  },
+  "totalTeachers": {
+    "id": "Jumlah Guru",
+    "en": "Total Teachers"
+  },
+  "totalClasses": {
+    "id": "Jumlah Kelas",
+    "en": "Total Classes"
+  },
+  "totalSchools": {
+    "id": "Jumlah Sekolah",
+    "en": "Total Schools"
+  },
+  "totalSubjects": {
+    "id": "Jumlah Mata Pelajaran",
+    "en": "Total Subjects"
+  },
+  "totalParents": {
+    "id": "Jumlah Orang Tua",
+    "en": "Total Parents"
+  },
+  "intro": {
+    "id": "Selamat datang",
+    "en": "Welcome"
+  },
+  "descriptionDashboard": {
+    "id": "Data anda sedang dimuat, mohon tunggu sebentar.",
+    "en": "Your data is loading, please wait a moment."
+  },
+  "errorTitle": {
+    "id": "Kesalahan Terjadi!",
+    "en": "An Error Occurred!"
+  },
+  "errorDescription": {
+    "id": "Terjadi kesalahan saat memuat data. Silakan muat ulang halaman atau coba lagi nanti.",
+    "en": "An error occurred while loading data. Please refresh the page or try again later."
+  },
+  "attendanceManagement": {
+    "id": "Manajemen Kehadiran",
+    "en": "Attendance Management"
+  },
+  "attendanceDescription": {
+    "id": "Kelola dan pantau kehadiran siswa, guru, dan staf dengan mudah dan efisien.",
+    "en": "Easily and efficiently manage and monitor attendance for students, teachers, and staff."
+  },
+  "attendanceAction": {
+    "id": "Lihat Data Kehadiran",
+    "en": "View Attendance Data"
+  },
+  "studentAttendance": {
+    "id": "Kehadiran Siswa",
+    "en": "Student Attendance"
+  },
+  "teacherAttendance": {
+    "id": "Absensi Guru",
+    "en": "Teacher Attendance"
+  },
+  "attendanceInPhoto": {
+    "id": "Foto absen masuk",
+    "en": "Attendance In Photo"
+  },
+  "attendanceOutPhoto": {
+    "id": "Foto absen pulang",
+    "en": "Attendance Out Photo"
+  },
+  "forgetPassword": {
+    "id": "Lupa kata sandi",
+    "en": "Forget Password"
+  },
+  "hasAccount": {
+    "id": "Sudah punya akun?",
+    "en": "Already have an account?"
+  },
+  "emailValidation1": {
+    "id": "Email harus diisi",
+    "en": "Email is required"
+  },
+  "emailValidation2": {
+    "id": "Format email tidak valid",
+    "en": "Invalid email format"
+  },
+  "successResetPassword": {
+    "id": "Kata sandi berhasil di reset, silahkan masuk kembali",
+    "en": "Password reset successfully, please login again"
+  },
+  "resetPassword": {
+    "id": "Reset password",
+    "en": "Password reset"
+  },
+  "faq": {
+    "id": "KELOLA FAQ",
+    "en": "FAQ MANAGEMENT"
+  },
+ "rules": {
+    "id": "TATA TERTIB",
+    "en": "REGULATIONS"
+  },
+  "successResetPass": {
+    "id": "Berhasil reset password (default: password123)",
+    "en": "Password reset successfully (default: password123)"
+  },
+  "failedResetPass": {
+    "id": "Gagal reset password",
+    "en": "Failed password reset"
+  },
+  "loginDesc": {
+    "id": "Manajemen Xpresensi untuk sekolah",
+    "en": "Xpresence Management for School"
+  },
+  "lastestAbsence": {
+    "id": "Absensi Terakhir",
+    "en": "Last Absence"
+  },
+  "historyAttendance": {
+    "id": "Riwayat Kehadiran",
+    "en": "History Attendance"
+  },
+  "event": {
+    "id": "Acara",
+    "en": "Events"
+  },
+  "filterByClass": {
+    "id": "FILTER KELAS",
+    "en": "Filter by Class"
+  },
+  "allClasses": {
+    "id": "Semua Kelas",
+    "en": "All Classes"
+  },
+  "unknownClass": {
+    "id": "Kelas Tidak Diketahui",
+    "en": "Unknown Class"
+  },
+  "searchClass": {
+    "id": "Cari Kelas",
+    "en": "Search Class"
+  },
+
+
+
+
+  "addingYoutubeUrl": {
+    "id": "Tambahkan List URL Youtube",
+    "en": "Add Youtube URL List"
+  },
+  "listActiveAnnouncement": {
+    "id": "List Pengumuman Aktif",
+    "en": "List Active Announcement"
+  },
+  "updateUrlData": {
+    "id": "Memperbarui data url",
+    "en": "Updated url data"
+  },
+  "amountOfVisitors": {
+    "id": "Pengunjung masuk",
+    "en": "Amount of Visitors"
+  },
+  "amountOfReturn": {
+    "id": "Pengunjung keluar",
+    "en": "Amount of leave"
+  },
+  "thisWeek": {
+    "id": "Minggu ini",
+    "en": "week now"
+  },
+  "totalMembers": {
+    "id": "Member perpustakaan",
+    "en": "Member of library"
+  },
+  "errorFetchMembers": {
+    "id": "Gagal dapatkan data",
+    "en": "Error fetch data"
+  },
+  "dataSummary": {
+    "id": "Ringkasan data",
+    "en": "Data summary"
+  },
+  "updated": {
+    "id": "Diperbarui",
+    "en": "Updated"
+  },
+  "topVisitorToday": {
+    "id": "Pengunjung Terbanyak Hari Ini",
+    "en": "Top Visitor Today"
+  },
+  "activeClassMonthly": {
+    "id": "Kelas Aktif Bulanan",
+    "en": "Active Class Monthly"
+  },
+  "booksAmount": {
+    "id": "Jumlah Buku",
+    "en": "Books Amount"
+  },
+  "borrowing": {
+    "id": "Dipinjam",
+    "en": "Borrowing"
+  },
+  "returned": {
+    "id": "Dikembalikan",
+    "en": "Returned"
+  },
+  "available": {
+    "id": "Tersedia",
+    "en": "Available"
+  },
+  "visitorTrendGraph": {
+    "id": "Grafik Pengunjung",
+    "en": "Visitor Trend Graph"
+  },
+  "topStudentLocation": {
+    "id": "Lokasi Siswa Teratas",
+    "en": "Top Student Location"
+  },
+  "prayerSchedule": {
+    "id": "Jadwal Sholat",
+    "en": "Prayer Schedule"
+  },
+  "details": {
+    "id": "Detail",
+    "en": "Details"
+  }
+}

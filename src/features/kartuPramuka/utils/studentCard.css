@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.card {
+  width: 300px;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.card-header {
+  background: linear-gradient(135deg, #ff9800, #ffca28);
+  padding: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.school-logo {
+  width: 50px;
+}
+
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid #ff9800;
+  margin-top: -40px;
+}
+
+.student-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.student-class {
+  font-size: 14px;
+  color: gray;
+}
+
+.qr-code {
+  margin: 15px 0;
+}
+
+.nisn {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.actions button {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #ff9800, #ffca28);
+  color: white;
+}
