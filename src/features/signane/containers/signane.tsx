@@ -21,7 +21,7 @@ import {
 import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const BASE_URL = "https://be-perpus-8xa0lfifq-valclassdevelops-projects.vercel.app";
+const BASE_URL = "https://be-perpus.vercel.app";
 
 type KioskMode = "MASUK" | "PULANG" | "PINJAM" | "CARI" | "KEMBALI";
 

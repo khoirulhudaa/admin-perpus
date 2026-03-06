@@ -19,7 +19,7 @@ import React, { Fragment, useState } from "react";
 import { FaSpinner } from "react-icons/fa";
 
 // const BASE_URL = "http://localhost:5010";
-const BASE_URL = "https://be-perpus-8xa0lfifq-valclassdevelops-projects.vercel.app";
+const BASE_URL = "https://be-perpus.vercel.app";
 
 // --- API FETCHERS ---
 const fetchEksemplar = async ({ schoolId, searchTerm, currentPage }: any) => {

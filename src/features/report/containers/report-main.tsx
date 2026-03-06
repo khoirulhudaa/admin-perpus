@@ -6,7 +6,7 @@ import { useState, useMemo } from "react";
 import { FaSpinner } from "react-icons/fa";
 import { Bar, BarChart, CartesianGrid, Cell, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
-const BASE_URL = "https://be-perpus-8xa0lfifq-valclassdevelops-projects.vercel.app";
+const BASE_URL = "https://be-perpus.vercel.app";
 
 // --- API Fetcher ---
 const fetchKunjunganReport = async ({ schoolId, filterMode, selectedMonth, selectedYear, currentPage, limit }: any) => {
