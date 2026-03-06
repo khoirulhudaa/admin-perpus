@@ -55,7 +55,7 @@ export const HomePage = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   
   // const baseURL = "http://localhost:5010";
-  const baseURL = "https://be-perpus-8xa0lfifq-valclassdevelops-projects.vercel.app";
+  const baseURL = "https://be-perpus.vercel.app";
 
   // --- REACT QUERY FETCHING ---
   const { 
