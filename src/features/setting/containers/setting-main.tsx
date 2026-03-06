@@ -151,7 +151,7 @@ export default function LibrarySettingsMain() {
           <div className="flex items-center gap-2 mb-2 font-black text-blue-600 uppercase tracking-[0.3em] text-[10px]"><Library size={14} /> System Configuration</div>
           <h1 className="text-3xl md:text-4xl font-black uppercase tracking-tighter text-slate-800">Pengaturan <span className="text-blue-600">Perpus</span></h1>
         </div>
-        <button 
+        {/* <button 
             type="submit" 
             disabled={isSubmitting}
             onClick={() => handleSubmit} 
@@ -159,7 +159,7 @@ export default function LibrarySettingsMain() {
           >
             {isSubmitting ? <FaSpinner className="animate-spin" /> : <Save size={18} />} 
             Simpan Pengaturan
-        </button>
+        </button> */}
       </header>
 
       <form onSubmit={handleSubmit} className="max-w-7xl mx-auto space-y-8">
