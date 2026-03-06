@@ -1,23 +1,30 @@
-import { cn, lang } from '@/core/libs';
+import { cn } from '@/core/libs';
 import { Icon, SidebarContext } from '@/features/_global';
 import { useProfile } from '@/features/profile';
+import { motion } from 'framer-motion';
 import React, { useCallback, useContext, useMemo } from 'react';
 import { NavLink } from 'react-router-dom';
 import { NavItemProps, NavProps } from '../types';
-import {motion} from 'framer-motion'
 
 interface NavItemPropsExtended extends NavItemProps {
   isCollapsed?: boolean;
   isParentManajemenData?: boolean;
   isChild?: boolean;
   main?: boolean;
+  onClose?: () => void; // Tambahkan ini
+  onClick?: () => void;
 }
 
-const NavItem = React.memo(({ isCollapsed, ...props }: NavItemPropsExtended) => {
+const NavItem = React.memo(({ isCollapsed, onClose, ...props }: NavItemPropsExtended) => {
   const sidebarContext = useContext(SidebarContext);
+  const { onClick: onClickFromProps } = props;
 
   const handleClick: React.MouseEventHandler<HTMLAnchorElement> = useCallback(
     (e) => {
+      // Jalankan fungsi onClick dari props (ini yang akan menutup Sheet)
+      if (onClickFromProps) {
+        onClickFromProps();
+      }
       // Karena struktur flat, kita langsung tutup sidebar saat diklik (di mobile)
       sidebarContext.setVisible?.(false);
     },
@@ -38,7 +45,7 @@ const NavItem = React.memo(({ isCollapsed, ...props }: NavItemPropsExtended) => 
         }
       >
         {({ isActive }) => (
-          <div className={cn('flex items-center gap-3', isCollapsed && 'justify-start items-start w-full')}>
+          <div onClick={onclick} className={cn('flex items-center gap-3', isCollapsed && 'justify-start items-start w-full')}>
             {props.icon && (
               <Icon
                 iconName={props.icon}
@@ -51,6 +58,7 @@ const NavItem = React.memo(({ isCollapsed, ...props }: NavItemPropsExtended) => 
 
             {!isCollapsed && (
               <span 
+                onClick={onclick}
                 className={cn(
                   "truncate tracking-wide transition-colors text-[14px]",
                   isActive ? "text-blue-900 font-bold" : "text-white/90 font-bold"
@@ -75,7 +83,7 @@ const NavItem = React.memo(({ isCollapsed, ...props }: NavItemPropsExtended) => 
 });
 
 export const Nav = React.memo(
-  ({ items = [], isCollapsed }: NavProps & { isCollapsed?: boolean }) => {
+  ({ items = [], isCollapsed, onClick }: NavProps & { isCollapsed?: boolean, onClick?: any }) => {
     const profile = useProfile();
     const userRole = profile?.user?.role;
 
@@ -93,6 +101,7 @@ export const Nav = React.memo(
         {filteredItems?.map((item, index) => (
           <NavItem
             key={index}
+            onClick={onClick}
             {...item}
             isCollapsed={isCollapsed}
           />

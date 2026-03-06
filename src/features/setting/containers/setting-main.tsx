@@ -146,10 +146,10 @@ export default function LibrarySettingsMain() {
     <div className="min-h-screen text-slate-900 pb-2">
       <AnimatePresence>{alert.isVisible && <Alert {...alert} onClose={() => setAlert(prev => ({ ...prev, isVisible: false }))} />}</AnimatePresence>
 
-      <header className="mb-8 max-w-7xl mx-auto flex items-center justify-between">
-        <div>
+      <header className="mb-8 max-w-7xl mx-auto md:flex items-center justify-between">
+        <div className="nd:mb-0 mb-4">
           <div className="flex items-center gap-2 mb-2 font-black text-blue-600 uppercase tracking-[0.3em] text-[10px]"><Library size={14} /> System Configuration</div>
-          <h1 className="text-4xl font-black uppercase tracking-tighter text-slate-800">Pengaturan <span className="text-blue-600">Perpus</span></h1>
+          <h1 className="text-3xl md:text-4xl font-black uppercase tracking-tighter text-slate-800">Pengaturan <span className="text-blue-600">Perpus</span></h1>
         </div>
         <button 
             type="submit" 

@@ -82,7 +82,7 @@ export const DashboardLayout = React.memo(({ menus = [], usermenus, children, ..
             className={cn(
               "sidebar-header flex h-14 items-center gap-2 border-b border-slate-300 shadow-sm",
               "bg-white/70 backdrop-blur-md sticky top-0 z-[50]",
-              visible ? 'px-6' : 'px-4 md:px-9',
+              visible ? 'px-1 md:px-8 pr-3' : 'px-4 md:px-9',
               props.headerClassName,
             )}
           >
@@ -104,7 +104,7 @@ export const DashboardLayout = React.memo(({ menus = [], usermenus, children, ..
                 variant="ghost"
                 size="sm"
                 onClick={() => {navigate('/signane')}}
-                className="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-lg transition-all text-slate-600 hover:bg-slate-100 hover:text-blue-600 border border-slate-200 shadow-sm bg-white"
+                className="flex items-center md:ml-0 ml-2 gap-2 px-3 py-1.5 rounded-md md:rounded-lg transition-all text-slate-600 hover:bg-slate-100 hover:text-blue-600 border border-slate-200 shadow-sm bg-white"
               >
                 <Maximize className="h-4 w-4" />
                 <span className="text-[11px] font-bold uppercase tracking-wider">

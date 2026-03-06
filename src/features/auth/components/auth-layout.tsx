@@ -31,13 +31,13 @@ export const AuthLayout = ({ description, title, children, image, siteTitle }: A
         <div className="absolute inset-0 z-10 bg-blue-600/80 backdrop-blur-[2px]" />
 
         {/* Layer 3: Content (Login Form) */}
-        <div className="relative z-20 w-[60vw] flex flex-col items-center justify-center p-6">
+        <div className="relative z-20 md:w-[60vw] w-[98vw] flex flex-col items-center justify-center p-6">
           
           <div className="w-full space-y-8">
             {(title || description) && (
               <div className="space-y-2 text-center w-full mx-auto flex flex-col justify-center items-center">
                 {title && (
-                  <h1 className="text-4xl font-extrabold uppercase w-max tracking-tight text-white drop-shadow-md">
+                  <h1 className="text-2xl md:text-4xl font-extrabold uppercase w-max tracking-tight text-white drop-shadow-md">
                     {"Perpustakaan Digital"}
                   </h1>
                 )}
@@ -50,7 +50,7 @@ export const AuthLayout = ({ description, title, children, image, siteTitle }: A
             )}
 
             {/* Form Container */}
-            <div className="bg-white/95 w-[72%] mx-auto backdrop-blur-md border border-white/20 p-8 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
+            <div className="bg-white/95 h-[56vh] w-[100%] md:w-[72%] mx-auto backdrop-blur-md border border-white/20 p-8 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
               {children}
             </div>
           </div>

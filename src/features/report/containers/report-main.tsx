@@ -75,13 +75,13 @@ export default function KunjunganReportMain() {
   return (
     <div className="min-h-screen text-slate-900">
       {/* Header Section */}
-      <header className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8">
+      <header className="flex flex-col md:flex-row md:items-end justify-between gap-4 md:gap-6 mb-8">
         <div>
           <div className="flex items-center gap-2 mb-2 font-black text-blue-600 uppercase tracking-[0.3em] text-[10px]">
             <BarChart3 size={14} /> Analytics Engine
           </div>
-          <h1 className="text-4xl font-black uppercase tracking-tighter text-slate-800">
-            Laporan <span className="text-blue-600">Kunjungan</span>
+          <h1 className="text-3xl md:text-4xl font-black uppercase tracking-tighter text-slate-800">
+            Data <span className="text-blue-600">Kunjungan</span>
           </h1>
         </div>
 
@@ -89,7 +89,7 @@ export default function KunjunganReportMain() {
           <button 
             onClick={() => refetch()} 
             disabled={isFetching}
-            className="p-4 bg-blue-600 border border-slate-200 rounded-xl text-white hover:text-blue-600 transition-all disabled:opacity-50"
+            className="p-4 bg-blue-600 border border-slate-200 rounded-xl text-white hover:bg-blue-700 transition-all disabled:opacity-50"
           >
             <RotateCw size={18} className={isFetching ? "animate-spin" : ""} />
           </button>

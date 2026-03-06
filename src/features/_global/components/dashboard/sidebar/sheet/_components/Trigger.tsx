@@ -1,21 +1,22 @@
 import { Button } from "@/core/libs";
-import { SidebarContext } from "@/features/_global/context";
 import { Menu } from "lucide-react";
-import React, { useContext } from "react";
+import React from "react";
 
-export const Trigger = React.memo(() => {
-  const sidebarContext = useContext(SidebarContext);
+// Definisikan interface agar tidak ada error TS
+interface TriggerProps {
+  onClick?: () => void;
+}
 
+export const Trigger = React.memo(({ onClick }: TriggerProps) => {
   return (
     <Button
       type="button"
-      onClick={sidebarContext.setVisible}
+      onClick={onClick}
       variant="outline"
       size="icon"
-      className="shrink-0 md:hidden"
+      className="shrink-0 md:hidden h-8 w-8"
     >
       <Menu className="h-5 w-5" />
-      <span className="sr-only">Toggle navigation menu</span>
     </Button>
   );
 });

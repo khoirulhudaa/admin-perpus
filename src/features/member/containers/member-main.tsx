@@ -361,10 +361,10 @@ export default function MemberMain() {
       <AnimatePresence>{alert.isVisible && <Alert {...alert} onClose={() => setAlert(prev => ({...prev, isVisible: false}))} />}</AnimatePresence>
 
       <header className="mb-10 max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 md:gap-6 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-2 font-black text-blue-600 uppercase tracking-[0.3em] text-[10px]"><Users size={14} /> Member Directory</div>
-            <h1 className="text-4xl font-black uppercase tracking-tighter text-slate-800">Master <span className="text-blue-600">Anggota</span></h1>
+            <h1 className="text-3xl md:text-4xl font-black uppercase tracking-tighter text-slate-800">Master <span className="text-blue-600">Anggota</span></h1>
           </div>
           
           <div className="flex items-center gap-3">
@@ -372,7 +372,7 @@ export default function MemberMain() {
               onClick={() => setIsDesignerOpen(true)}
               className="group h-14 px-6 bg-slate-100 text-slate-600 hover:text-white border border-slate-200 rounded-2xl flex items-center gap-3 font-black uppercase tracking-widest text-[10px] shadow-sm hover:bg-blue-600 transition-all active:scale-95"
             >
-              <Palette size={16} className="text-blue-600 group-hover:text-white" /> Design Kartu
+              <Palette size={16} className="text-blue-600 group-hover:text-white" /> Kartu
             </button>
             <button 
               onClick={() => refetch()} 
@@ -382,7 +382,7 @@ export default function MemberMain() {
               <RotateCw size={20} className={isFetching ? "animate-spin" : ""} />
             </button>
             <button onClick={() => openModal()} className="h-14 px-8 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl flex items-center gap-3 font-black uppercase tracking-widest text-xs shadow-xl active:scale-95 transition-all">
-              <Plus size={16} /> Tambah Anggota
+              <Plus size={16} /> Tambah
             </button>
           </div>
         </div>

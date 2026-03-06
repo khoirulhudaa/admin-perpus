@@ -40,7 +40,7 @@ export const LoginPage = () => {
   };
 
   return (
-    <form onSubmit={submit} className="space-y-6 overflow-hidden">
+    <form onSubmit={submit} className="space-y-6 flex flex-col justify-between bg-transparent h-full overflow-hidden">
       <VokadashHead>
         <title>{`Login | ${APP_CONFIG.appName}`}</title>
       </VokadashHead>
@@ -57,7 +57,7 @@ export const LoginPage = () => {
             required
             value={identifier}
             onChange={({ target: { value } }) => setIdentifier(value)}
-            className="h-11 bg-white/[0.03] border-white/10 text-blue-900 placeholder:text-white/20 focus:border-blue-500/50 focus:ring-0 transition-all rounded-xl"
+            className="h-11 bg-white/[0.03] border-blue-400 text-blue-900 placeholder:text-white/20 border-2 focus:border-blue-500/50 focus:ring-0 transition-all rounded-xl"
           />
         </div>
 
@@ -75,7 +75,7 @@ export const LoginPage = () => {
             value={password}
             onChange={({ target: { value } }) => setPassword(value)}
             placeholder="••••••••"
-            className="h-11 bg-white/[0.03] border-white/10 text-blue-900 placeholder:text-white/20 focus:border-blue-500/50 focus:ring-0 transition-all rounded-xl"
+            className="h-11 bg-white/[0.03] border-blue-400 text-blue-900 placeholder:text-white/20 border-2 focus:border-blue-500/50 focus:ring-0 transition-all rounded-xl"
           />
         </div>
       </div>
@@ -83,11 +83,11 @@ export const LoginPage = () => {
       <Button 
         type="submit" 
         disabled={auth.isLoading} 
-        className="w-full h-11 bg-blue-600 hover:bg-blue-500 text-white font-medium rounded-xl transition-all shadow-lg shadow-blue-600/10"
+        className="w-full h-12 bg-blue-600 hover:bg-blue-500 text-white font-medium rounded-xl transition-all shadow-lg shadow-blue-600/10"
       >
         {auth.isLoading ? 'Memproses...' : 'Masuk'}
       </Button>
-
+{/* 
       <div className="text-center pt-2">
         <p className="text-[13px] text-slate-500">
           Belum punya akun?{' '}
@@ -95,7 +95,7 @@ export const LoginPage = () => {
             Daftar Sekarang
           </Link>
         </p>
-      </div>
+      </div> */}
     </form>
   );
 };

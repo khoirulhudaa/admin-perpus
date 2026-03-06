@@ -108,7 +108,7 @@ export const HomePage = () => {
       siteTitle={`${lang.text("dashboard")} | ${APP_CONFIG.appName}`}
       breadcrumbs={[{ label: "Dashboard", url: "/" }]}
     >
-      <div className="space-y-8 pb-12 pt-6 px-4 md:px-0 relative">
+      <div className="space-y-8 pb-12 pt-6 px-0 relative">
         
         {/* Hero Section */}
         <section className="relative overflow-hidden rounded-[2rem] bg-slate-900 p-8 md:p-12 shadow-2xl">
@@ -131,12 +131,12 @@ export const HomePage = () => {
             
             <motion.h1 
               initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
-              className="text-4xl md:text-6xl font-black text-white tracking-tighter leading-[1.1]"
+              className="text-3xl md:text-6xl font-black text-white flex items-center md:gap-2.5 tracking-tighter leading-[1.1]"
             >
-              KENDALI <span className="text-blue-500">PERPUS</span> DIGITAL.
+              <span className="md:flex w-max items-center hidden">KENDALI</span> <span className="text-blue-500">PERPUS</span> DIGITAL.
             </motion.h1>
             
-            <p className="mt-6 text-lg text-slate-400 font-medium max-w-2xl leading-relaxed">
+            <p className="mt-6 text-sm md:text-lg text-slate-400 font-medium max-w-2xl leading-relaxed">
               Selamat datang, <span className="text-white">{profile?.user?.name}</span>. 
               Kelola koleksi <span className="text-blue-400">{school?.namaSekolah}</span> dalam satu dasbor terpadu.
             </p>

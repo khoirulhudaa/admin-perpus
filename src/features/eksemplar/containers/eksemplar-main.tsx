@@ -141,10 +141,10 @@ export default function EksemplarMain() {
   return (
     <div className="min-h-screen text-slate-900">
       {/* Header */}
-      <header className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8 max-w-7xl mx-auto">
+      <header className="flex flex-col md:flex-row md:items-center justify-between gap-4 md:gap-6 mb-8 max-w-7xl mx-auto">
         <div>
           <div className="flex items-center gap-2 mb-2 font-black text-blue-600 uppercase tracking-[0.3em] text-[10px]"><Library size={14} /> Eksemplar Registry</div>
-          <h1 className="text-4xl font-black uppercase tracking-tighter text-slate-800">Master <span className="text-blue-600">Eksemplar</span></h1>
+          <h1 className="text-3xl md:text-4xl font-black uppercase tracking-tighter text-slate-800">Master <span className="text-blue-600">Eksemplar</span></h1>
         </div>
         
         <div className="flex items-center gap-3">

@@ -256,10 +256,10 @@ export default function PeminjamanMain() {
       <AnimatePresence>{alert.isVisible && <Alert {...alert} onClose={() => setAlert(prev => ({...prev, isVisible: false}))} />}</AnimatePresence>
 
       <header className="mb-10 max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 md:gap-6 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-2 font-black text-blue-600 uppercase tracking-[0.3em] text-[10px]"><Receipt size={14} /> Circulation Desk</div>
-            <h1 className="text-4xl font-black uppercase tracking-tighter text-slate-800">Sirkulasi <span className="text-blue-600">Peminjaman</span></h1>
+            <h1 className="text-3xl md:text-4xl font-black uppercase tracking-tighter flex items-center gap-2 text-slate-800">Sirkulasi <span className="text-blue-600 md:hidden flex">Buku</span><span className="text-blue-600 md:flex hidden">Peminjaman</span></h1>
           </div>
           <div className="flex gap-3">
           <button onClick={() => refetch()} disabled={isFetching} className="h-14 w-14 flex items-center justify-center bg-blue-600 text-white rounded-2xl border border-slate-200 hover:bg-blue-700 transition-all">

@@ -381,10 +381,10 @@ export default function SerialControlMain() {
   return (
     <div className="min-h-screen">
       {/* HEADER */}
-      <header className="mb-8 flex justify-between items-center">
-        <div>
+      <header className="mb-8 md:flex justify-between items-center">
+        <div className="md:mb-0 mb-4">
           <div className="flex items-center gap-2 mb-2 font-black text-blue-600 uppercase tracking-[0.3em] text-[10px]"><Library size={14} /> Pendataan serial</div>
-          <h1 className="text-4xl font-black uppercase tracking-tighter text-slate-800">Kendali <span className="text-blue-600">Serial</span></h1>
+          <h1 className="text-3xl md:text-4xl font-black uppercase tracking-tighter text-slate-800">Kendali <span className="text-blue-600">Serial</span></h1>
         </div>
 
         <div className="w-max flex items-center gap-3">

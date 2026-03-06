@@ -15,9 +15,11 @@ const vokadashContextDefaultValue: VokadashContextValue = {
 
 export const VokadashContext = createContext(vokadashContextDefaultValue);
 
+// Cari interface SidebarContextValue atau sejenisnya
 export interface SidebarContextValue {
   visible: boolean;
-  setVisible: () => void;
+  // Ubah dari () => void menjadi seperti di bawah ini:
+  setVisible: (visible: boolean) => void; 
 }
 
 const sidebarContextDefaultValue: SidebarContextValue = {

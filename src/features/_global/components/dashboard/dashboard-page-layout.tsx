@@ -62,23 +62,6 @@ export const DashboardPageLayout = React.memo(
               <CustomBreadcrumbs items={breadcrumbs} />
             </div>
           )}
-          {/* <div className="flex flex-row gap-2 text-blue-900 mb-4 items-center">
-            {backButton && (
-              <Button onClick={handleClickBack} variant="outline" size="icon">
-                <ChevronLeft />
-              </Button>
-            )}
-            <div>
-              {description && (
-                <div className="flex items-center mt-2">
-                  <p className="dashboard-page-title text-blue-900 text-sm font-normal">
-                    {description}
-                  </p>
-                </div>
-              )}
-            </div>
-          </div> */}
-
           {children}
         </div>
       </>
