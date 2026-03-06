@@ -153,7 +153,8 @@ export default function LibrarySettingsMain() {
         </div>
         <button 
             type="submit" 
-            disabled={isSubmitting} 
+            disabled={isSubmitting}
+            onClick={() => handleSubmit} 
             className="w-max p-5 bg-blue-600 text-white rounded-2xl font-black uppercase tracking-[0.3em] text-xs flex items-center justify-center gap-3 hover:bg-blue-600 shadow-2xl transition-all active:scale-[0.98] disabled:opacity-50"
           >
             {isSubmitting ? <FaSpinner className="animate-spin" /> : <Save size={18} />} 
