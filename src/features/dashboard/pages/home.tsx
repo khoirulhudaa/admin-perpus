@@ -54,7 +54,8 @@ export const HomePage = () => {
   const navigate = useNavigate();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   
-  const baseURL = "http://localhost:5010";
+  // const baseURL = "http://localhost:5010";
+  const baseURL = "https://be-perpus-8xa0lfifq-valclassdevelops-projects.vercel.app";
 
   // --- REACT QUERY FETCHING ---
   const { 
@@ -117,7 +118,7 @@ export const HomePage = () => {
             disabled={isFetching}
             className="absolute top-5 right-5 z-[9999] p-2 rounded-xl bg-blue-600 text-white hover:bg-blue-700 hover:text-white transition-all active:scale-95 disabled:opacity-50"
           >
-            <RefreshCw className={`h-5 w-5 ${isFetching ? 'animate-spin text-blue-600' : ''}`} />
+            <RefreshCw className={`h-5 w-5 ${isFetching ? 'animate-spin text-white' : ''}`} />
           </button>
           <div className="absolute top-0 right-0 -mr-20 -mt-20 h-96 w-96 rounded-full bg-blue-600/20 blur-[100px]" />
           <div className="relative z-10">

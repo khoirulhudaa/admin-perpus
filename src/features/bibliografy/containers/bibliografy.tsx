@@ -21,7 +21,8 @@ import {
 import React, { Fragment, useCallback, useState } from "react";
 import { FaSpinner } from "react-icons/fa";
 
-const BASE_URL = "http://localhost:5010";
+// const BASE_URL = "http://localhost:5010";
+const BASE_URL = "https://be-perpus-8xa0lfifq-valclassdevelops-projects.vercel.app";
 
 // --- UTILS ---
 const clsx = (...args: Array<string | false | null | undefined>): string =>

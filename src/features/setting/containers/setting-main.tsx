@@ -18,7 +18,7 @@ import React, { useCallback, useEffect, useRef, useState } from "react";
 import { FaSpinner } from "react-icons/fa";
 import SignatureCanvas from 'react-signature-canvas';
 
-const BASE_URL = "http://localhost:5010/setting";
+const BASE_URL = "https://be-perpus-8xa0lfifq-valclassdevelops-projects.vercel.app/setting";
 
 // --- UTILS ---
 const clsx = (...args: Array<string | false | null | undefined>): string =>

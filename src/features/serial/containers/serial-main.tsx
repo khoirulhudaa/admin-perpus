@@ -219,11 +219,11 @@
 import { useSchool } from "@/features/schools";
 import { Dialog, Transition } from "@headlessui/react";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
-import { Newspaper, Plus, Save, X, Calendar, Hash, Sparkles, CheckCircle2, RotateCw, Edit3, Trash2, Library } from "lucide-react";
+import { Calendar, CheckCircle2, Edit3, Library, Newspaper, Plus, RotateCw, Save, Sparkles, Trash2, X } from "lucide-react";
 import React, { Fragment, useState } from "react";
 import { FaSpinner } from "react-icons/fa";
 
-const BASE_URL = "http://localhost:5010";
+const BASE_URL = "https://be-perpus-8xa0lfifq-valclassdevelops-projects.vercel.app";
 
 export default function SerialControlMain() {
   const queryClient = useQueryClient();
