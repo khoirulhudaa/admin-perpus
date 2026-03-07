@@ -46,7 +46,7 @@ export const InputSecure = React.forwardRef<HTMLInputElement, InputSecureProps>(
           )}
           onClick={handleClickVisible}
         >
-          {visible ? <Eye /> : <EyeOff />}
+          {visible ? <Eye size={22} className="relative top-[2px] text-blue-500" /> : <EyeOff size={22} className="relative top-[2px] text-blue-500" />}
         </button>
       </div>
     );

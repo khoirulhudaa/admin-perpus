@@ -50,7 +50,7 @@ export const AuthLayout = ({ description, title, children, image, siteTitle }: A
             )}
 
             {/* Form Container */}
-            <div className="bg-white/95 h-[56vh] w-[100%] md:w-[72%] mx-auto backdrop-blur-md border border-white/20 p-8 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
+            <div className="bg-white/95 h-max md:h-[56vh] w-[100%] md:w-[72%] mx-auto backdrop-blur-md border border-white/20 p-8 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
               {children}
             </div>
           </div>
