@@ -21,7 +21,7 @@ import React, { Fragment, useCallback, useRef, useState } from "react";
 import { FaSpinner } from "react-icons/fa";
 import { useReactToPrint } from "react-to-print";
 
-const BASE_URL = "https://be-perpus.vercel.app";
+const BASE_URL = "https://be-perpus.kiraproject.id";
 
 // --- Utility: CSS Classes ---
 const clsx = (...args: Array<string | false | null | undefined>): string =>

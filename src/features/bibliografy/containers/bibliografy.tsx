@@ -22,7 +22,7 @@ import React, { Fragment, useCallback, useState } from "react";
 import { FaSpinner } from "react-icons/fa";
 
 // const BASE_URL = "http://localhost:5010";
-const BASE_URL = "https://be-perpus.vercel.app";
+const BASE_URL = "https://be-perpus.kiraproject.id";
 
 // --- UTILS ---
 const clsx = (...args: Array<string | false | null | undefined>): string =>

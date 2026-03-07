@@ -19,7 +19,7 @@ import { FaSpinner } from "react-icons/fa";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 
-const BASE_URL = "https://be-perpus.vercel.app";
+const BASE_URL = "https://be-perpus.kiraproject.id";
 
 export default function StockOpnameMain() {
   const queryClient = useQueryClient();
@@ -65,7 +65,7 @@ export default function StockOpnameMain() {
   const { data: libSettings } = useQuery({
     queryKey: ["librarySettings", schoolId],
     queryFn: async () => {
-      const res = await fetch(`https://be-perpus.vercel.app/setting?schoolId=${schoolId}`);
+      const res = await fetch(`https://be-perpus.kiraproject.id/setting?schoolId=${schoolId}`);
       const json = await res.json();
       return json.data;
     },

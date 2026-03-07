@@ -23,7 +23,7 @@ import {
 import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const BASE_URL = "https://be-perpus.vercel.app";
+const BASE_URL = "https://be-perpus.kiraproject.id";
 
 type KioskMode = "MASUK" | "PULANG" | "PINJAM" | "CARI" | "KEMBALI";
 

@@ -28,7 +28,7 @@ import { FaSpinner } from "react-icons/fa";
 import jsPDF from "jspdf";
 import QRCode from "qrcode";
 
-const BASE_URL = "https://be-perpus.vercel.app";
+const BASE_URL = "https://be-perpus.kiraproject.id";
 
 // --- UTILS ---
 const clsx = (...args: Array<string | false | null | undefined>): string =>
