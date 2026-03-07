@@ -131,7 +131,7 @@ export const HomePage = () => {
             
             <motion.h1 
               initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
-              className="text-3xl md:text-6xl font-black text-white flex items-center md:gap-2.5 tracking-tighter leading-[1.1]"
+              className="text-3xl md:text-6xl font-black text-white flex items-center gap-2.5 tracking-tighter leading-[1.1]"
             >
               <span className="md:flex w-max items-center hidden">KENDALI</span> <span className="text-blue-500">PERPUS</span> DIGITAL.
             </motion.h1>
@@ -173,14 +173,14 @@ export const HomePage = () => {
               <div className={`space-y-6 transition-opacity ${isFetching ? 'opacity-40' : 'opacity-100'}`}>
                 {dashboardData?.logs.length > 0 ? dashboardData?.logs.slice(0, 4).map((log: any) => (
                   <div key={log.id} className="flex items-center gap-4 transition-colors">
-                    <div className={`h-12 w-12 rounded-md flex items-center justify-center ${log.status === 'pinjam' ? 'bg-orange-200' : 'bg-emerald-200'}`}>
+                    <div className={`h-12 w-12 rounded-md hidden md:flex items-center justify-center ${log.status === 'pinjam' ? 'bg-orange-200' : 'bg-emerald-200'}`}>
                       <Clock className={`h-5 w-5 ${log.status === 'pinjam' ? 'text-orange-700' : 'text-emerald-700'}`} />
                     </div>
                     <div className="flex-1">
                       <p className="text-sm font-bold text-slate-800 truncate max-w-[200px] md:max-w-none">
                         {log.status === 'pinjam' ? 'Peminjaman' : 'Pengembalian'}: "{log.Eksemplar?.Biblio?.title}"
                       </p>
-                      <p className="text-xs text-slate-500">Siswa: {log.peminjamName} • {moment(log.createdAt).fromNow()}</p>
+                      <p className="text-xs w-[98%] truncate text-slate-500">Siswa: {log.peminjamName} • {moment(log.createdAt).fromNow()}</p>
                     </div>
                     <span className={`text-[10px] font-black uppercase px-2 py-1 rounded ${log.status === 'pinjam' ? 'text-orange-600 bg-orange-50' : 'text-emerald-600 bg-emerald-50'}`}>
                       {log.status}

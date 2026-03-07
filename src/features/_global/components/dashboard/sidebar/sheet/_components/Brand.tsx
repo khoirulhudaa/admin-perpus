@@ -21,9 +21,9 @@ export const Brand = React.memo(() => {
   return (
     <Link
       to="#"
-      className="sidebar-brand sidebar-brand-logo flex items-center gap-2 text-lg font-semibold"
+      className="sidebar-brand sidebar-brand-logo pt-1 md:border-none md:pb-0 pb-4 border-b border-white/20 flex items-center gap-2 text-lg font-semibold"
     >
-      <Avatar>
+      <Avatar className="md:flex hidden">
         {schoolDetail?.file ? (
           <>
             <AvatarImage

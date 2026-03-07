@@ -100,7 +100,7 @@ export const DashboardLayout = React.memo(({ menus = [], usermenus, children, ..
               </Button>
 
               {/* Tombol ke Mode Signage */}
-              <Button
+              {/* <Button
                 variant="ghost"
                 size="sm"
                 onClick={() => {navigate('/signane')}}
@@ -110,7 +110,7 @@ export const DashboardLayout = React.memo(({ menus = [], usermenus, children, ..
                 <span className="text-[11px] font-bold uppercase tracking-wider">
                    Mode Signage
                 </span>
-              </Button>
+              </Button> */}
             </div>
             
             <div className="md:hidden">

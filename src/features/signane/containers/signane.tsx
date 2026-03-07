@@ -79,7 +79,11 @@ export default function DigitalSignageKiosk() {
   const rowVirtualizer = useVirtualizer({
     count: rowCount,
     getScrollElement: () => parentRef.current,
-    estimateSize: () => (isPortrait ? 480 : 420),
+    estimateSize: () => {
+      // Jika lebar layar di bawah 768px (Mobile), beri ruang lebih besar
+      if (window.innerWidth < 768) return 650; 
+      return 450; // Desktop
+    },
     overscan: 5,
   });
 
@@ -183,16 +187,16 @@ export default function DigitalSignageKiosk() {
   }, [showScanner, targetEksemplar, mode]);
 
   return (
-    <div className={`min-h-screen bg-slate-200 flex items-start justify-center font-sans transition-all ${isPortrait ? "py-10 overflow-hidden" : "p-0 overflow-y-auto"}`}>
-      <div className={`bg-white flex flex-col shadow-2xl transition-all duration-700 relative ${isPortrait ? "w-[1080px] h-[1920px] border-[16px] border-white" : "w-full min-h-screen"}`}>
+    <div className={`md:min-h-screen bg-slate-200 flex items-start justify-center font-sans transition-all ${isPortrait ? "md:py-10 overflow-hidden" : "p-0 overflow-y-auto"}`}>
+      <div className={`bg-white flex flex-col shadow-2xl transition-all duration-700 relative ${isPortrait ? "w-[1080px] md:h-[1920px] border-[16px] border-white" : "w-full md:min-h-screen"}`}>
         
         {/* HEADER AREA */}
-        <header className={`${isPortrait ? "h-[350px]" : "h-[220px]"} relative bg-blue-600 p-12 text-white flex flex-col justify-end overflow-hidden transition-all`}>
-          <div className={`absolute top-12 left-12 border p-2 border-white/80 h-max w-max ${!isPortrait ? "hidden" : "flex"} items-start px-[12px] justify-start gap-2`}>
+        <header className={`${isPortrait ? "h-[280px] md:h-[350px]" : "h-[200px] md:h-[220px]"} relative bg-blue-600 p-6 md:p-12 text-white flex flex-col justify-end overflow-hidden transition-all`}>
+          <div className={`absolute top-12 left-12 border p-2 border-white/80 h-max w-max ${!isPortrait ? "hidden" : "hidden md:flex"} items-start px-[12px] justify-start gap-2`}>
             <p className="text-lg font-bold uppercase opacity-70">Halaman utama / Signage mode</p>
           </div>
 
-          <div className="absolute top-12 right-6 flex gap-3 z-50">
+          <div className="absolute top-12 md:right-6 flex gap-3 z-50">
             {/* Tombol Refresh Manual */}
             {(mode === "PINJAM" || mode === "CARI") && (
               <button 
@@ -214,22 +218,22 @@ export default function DigitalSignageKiosk() {
           <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&q=80&w=2000" className="absolute inset-0 w-full h-full object-cover opacity-20 mix-blend-overlay" alt="Library Background" />
 
           <div className="z-10">
-            <h1 className="text-6xl font-black tracking-tighter mb-4">E-LIBRARY <span className="text-blue-200">SCREEN</span></h1>
+            <h1 className="text-3xl md:text-6xl font-black tracking-tighter mb-4">E-LIBRARY <span className="text-blue-200">SCREEN</span></h1>
             <div className="backdrop-blur-md w-fit p-1 rounded-lg">
-              <h2 className="text-2xl font-black uppercase tracking-tight">LAYANAN {mode}</h2>
-              <p className="opacity-80 font-medium text-lg">Perpustakaan Digital Mandiri.</p>
+              <h2 className="text-lg md:text-2xl font-black uppercase tracking-tight">LAYANAN {mode}</h2>
+              <p className="opacity-80 font-medium text-md md:text-lg">Perpustakaan Digital Mandiri.</p>
             </div>
           </div>
         </header>
 
         {/* NAVIGATION TAB */}
-        <nav className="flex bg-slate-50 p-6 gap-4 border-b">
+        <nav className="flex bg-slate-50 py-6 md:px-6 px-0 md:p-6 gap-4 border-b">
           {[
-            { id: "MASUK", label: "MASUK", icon: <LogIn size={32} />, color: "bg-blue-600" },
-            { id: "PULANG", label: "PULANG", icon: <LogOut size={32} />, color: "bg-rose-600" },
-            { id: "PINJAM", label: "PINJAM", icon: <Book size={32} />, color: "bg-blue-600" },
-            { id: "KEMBALI", label: "KEMBALI", icon: <RefreshCw size={32} />, color: "bg-emerald-600" },
-            { id: "CARI", label: "CARI", icon: <Search size={32} />, color: "bg-slate-700" },
+            { id: "MASUK", label: "MASUK", icon: <LogIn size={26} />, color: "bg-blue-600" },
+            { id: "PULANG", label: "PULANG", icon: <LogOut size={26} />, color: "bg-rose-600" },
+            { id: "PINJAM", label: "PINJAM", icon: <Book size={26} />, color: "bg-blue-600" },
+            { id: "KEMBALI", label: "KEMBALI", icon: <RefreshCw size={26} />, color: "bg-emerald-600" },
+            // { id: "CARI", label: "CARI", icon: <Search size={32} />, color: "bg-slate-700" },
           ].map((item) => (
             <button
               key={item.id}
@@ -238,7 +242,7 @@ export default function DigitalSignageKiosk() {
                 setSearchQuery("");
                 setShowScanner(false);
               }}
-              className={`flex-1 py-8 rounded-3xl font-black text-xl transition-all flex flex-col items-center justify-center gap-2 ${
+              className={`flex-1 py-4 md:py-8 md:rounded-3xl font-black text-xs md:text-xl transition-all flex flex-col items-center justify-center gap-2 ${
                 mode === item.id ? `${item.color} text-white shadow-2xl border border-slate-200` : "bg-white text-slate-400 border border-slate-200 hover:bg-slate-100"
               }`}
             >
@@ -249,10 +253,10 @@ export default function DigitalSignageKiosk() {
         </nav>
 
         {/* DYNAMIC CONTENT */}
-        <main ref={parentRef} className="flex-1 overflow-y-auto py-6 bg-slate-50/20 px-8">
+        <main ref={parentRef} className="flex-1 overflow-y-auto py-6 bg-slate-50/20 h-max md:px-8">
           {mode === "MASUK" || mode === "PULANG" || mode === "KEMBALI" ? (
-            <div className="h-full flex flex-col items-center justify-center text-center">
-              <div className={`w-full aspect-square bg-black rounded-[2rem] overflow-hidden shadow-2xl relative mb-12`}>
+            <div className="md:h-full flex flex-col h-max items-center justify-center text-center">
+              <div className={`w-full aspect-video md:aspect-square bg-black rounded-none md:rounded-[2rem] overflow-hidden shadow-2xl relative mb-12`}>
                 <div id="reader-inline" className="w-full h-full [&_video]:w-full [&_video]:h-full [&_video]:object-cover"></div>
                 <div className="absolute inset-0 border-[4px] border-white/30 pointer-events-none animate-pulse"></div>
                 {actionLoading && (
@@ -261,13 +265,13 @@ export default function DigitalSignageKiosk() {
                   </div>
                 )}
               </div>
-              <div className="space-y-4">
-                <h3 className="text-5xl font-black text-slate-800 uppercase tracking-tighter">SCAN {mode}</h3>
-                <p className="text-md text-slate-500 font-medium max-w-xl">
+              <div className="space-y-4 h-max">
+                <h3 className="text-2xl md:text-5xl font-black text-slate-800 uppercase tracking-tighter">SCAN {mode}</h3>
+                <p className="text-sm md:text-md text-slate-500 font-medium max-w-xl">
                   {mode === "KEMBALI" ? "Silakan tunjukkan Barcode pada Buku ke arah kamera." : "Silakan tunjukkan Barcode pada Kartu Pelajar Anda ke arah kamera."}
                 </p>
               </div>
-              <div className={`mt-12 flex items-center gap-4 px-8 py-4 rounded-full font-black text-xl ${mode === "MASUK" ? "bg-blue-50 text-blue-600" : mode === "PULANG" ? "bg-rose-50 text-rose-600" : "bg-emerald-50 text-emerald-600"}`}>
+              <div className={`mt-6 md:mt-12 flex items-center gap-4 px-8 py-4 rounded-full font-black text-md md:text-xl ${mode === "MASUK" ? "md:bg-blue-50 text-blue-600" : mode === "PULANG" ? "md:bg-rose-50 text-rose-600" : "bg-emerald-50 text-emerald-600"}`}>
                 <Volume2 size={32} /> SISTEM SIAP MENERIMA SCAN
               </div>
             </div>
@@ -297,42 +301,65 @@ export default function DigitalSignageKiosk() {
                     position: "relative",
                   }}
                 >
-                  {rowVirtualizer.getVirtualItems().map((virtualRow) => {
+                  
+                {rowVirtualizer.getVirtualItems().map((virtualRow) => {
                     const startIndex = virtualRow.index * columns;
                     const itemsInRow = eksemplars.slice(startIndex, startIndex + columns);
 
-                    return (
+                   return (
                       <div
                         key={virtualRow.key}
+                        className="absolute top-0 left-0 w-full"
                         style={{
-                          position: "absolute",
-                          top: 0,
-                          left: 0,
-                          width: "100%",
-                          height: `${virtualRow.size}px`,
                           transform: `translateY(${virtualRow.start}px)`,
                           display: "grid",
-                          gridTemplateColumns: `repeat(${columns}, 1fr)`,
-                          gap: "2rem",
-                          paddingBottom: "2rem",
+                          // Pastikan di mobile hanya 1 kolom agar tidak sempit
+                          gridTemplateColumns: window.innerWidth < 768 ? "1fr" : `repeat(${columns}, 1fr)`,
+                          // Tambahkan gap antar kartu
+                          gap: "2rem", 
+                          // Tambahkan padding bawah agar baris satu dengan baris bawahnya tidak menempel
+                          paddingBottom: "3rem", 
+                          paddingLeft: "0",
+                          paddingRight: "0"
                         }}
                       >
                         {itemsInRow.map((eks: any) => (
-                          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} key={eks.id} className="bg-white p-8 rounded-3xl border-2 border-blue-600 flex flex-col shadow-sm h-full">
-                            <div className="flex gap-8 mb-8">
-                              <div className="w-44 h-44 bg-slate-50 p-4 rounded-3xl flex-shrink-0 border flex items-center justify-center">
-                                {eks.Biblio?.image ? <img src={eks.Biblio.image} loading="lazy" className="w-full h-full object-cover rounded-2xl" /> : <Book size={60} className="text-slate-200" />}
+                          <motion.div 
+                            initial={{ opacity: 0 }} 
+                            animate={{ opacity: 1 }} 
+                            key={eks.id} 
+                            className="w-full bg-white p-0 md:p-8 rounded-3xl md:border-2 border-blue-600 flex flex-col shadow-md h-full min-h-[500px] md:min-h-0"
+                          >
+                            <div className="flex flex-col md:flex-row gap-4 md:gap-8 md:pb-10">
+                              {/* Image Box: Paksa tinggi di mobile agar konsisten */}
+                              <div className="w-full md:w-44 h-[400px] md:h-44 bg-slate-50 p-4 rounded-3xl flex-shrink-0 border flex items-center justify-center overflow-hidden">
+                                {eks.Biblio?.image ? (
+                                  <img src={eks.Biblio.image} loading="lazy" className="w-full h-full object-cover rounded-2xl" />
+                                ) : (
+                                  <Book size={60} className="text-slate-200" />
+                                )}
                               </div>
-                              <div className="flex-1 space-y-3">
-                                <div className="w-max flex items-center gap-2">
-                                  <span className={`px-6 py-2 rounded-md font-black text-sm uppercase ${eks.status === "Tersedia" ? "bg-blue-600 text-white" : "bg-red-600 text-white"}`}>{eks.status}</span>
-                                  <span className="px-6 py-2 bg-blue-50 text-blue-700 rounded-md font-mono font-black text-sm">#{eks.registerNumber}</span>
+
+                              <div className="flex-1 min-w-0 space-y-3">
+                                <div className="flex flex-wrap gap-2">
+                                  <span className={`px-4 py-1.5 rounded-md font-black text-[10px] md:text-sm uppercase ${eks.status === "Tersedia" ? "bg-blue-600 text-white" : "bg-red-600 text-white"}`}>
+                                    {eks.status}
+                                  </span>
+                                  <span className="px-4 py-1.5 bg-blue-50 text-blue-700 rounded-md font-mono font-black text-[10px] md:text-sm">
+                                    #{eks.registerNumber}
+                                  </span>
                                 </div>
-                                <h4 className="text-3xl font-black text-slate-800 leading-tight uppercase line-clamp-2">{eks.Biblio?.title}</h4>
-                                <h4 className="text-md font-medium text-slate-800 leading-tight uppercase line-clamp-2">Penulis: {eks.Biblio?.sor}</h4>
+                                
+                                <h4 className="text-xl md:text-3xl font-black text-slate-800 leading-tight uppercase line-clamp-2 break-words">
+                                  {eks.Biblio?.title}
+                                </h4>
+                                <p className="text-xs md:text-md font-medium text-slate-500 uppercase">
+                                  Penulis: {eks.Biblio?.sor || "-"}
+                                </p>
                               </div>
                             </div>
-                            <div className="mt-auto flex justify-between items-center pt-8 border-t-2 border-blue-600">
+
+                            <div className="mt-6 md:mt-auto pt-6 border-t-2 border-blue-600 flex justify-end">
                               {mode === "PINJAM" && (
                                 <button
                                   disabled={eks.status !== "Tersedia"}
@@ -340,8 +367,10 @@ export default function DigitalSignageKiosk() {
                                     setTargetEksemplar(eks);
                                     setShowScanner(true);
                                   }}
-                                  className={`px-6 py-4 rounded-lg font-medium text-sm transition-all shadow-xl active:scale-95 ${
-                                    eks.status === "Tersedia" ? "bg-slate-900 text-white hover:bg-blue-600" : "bg-slate-200 text-slate-400 cursor-not-allowed shadow-none"
+                                  className={`w-full md:w-max px-6 py-4 rounded-xl font-black text-xs md:text-sm transition-all shadow-lg active:scale-95 ${
+                                    eks.status === "Tersedia" 
+                                      ? "bg-slate-900 text-white hover:bg-blue-700" 
+                                      : "bg-slate-200 text-slate-400 cursor-not-allowed shadow-none"
                                   }`}
                                 >
                                   PINJAM BUKU SEKARANG
@@ -359,7 +388,7 @@ export default function DigitalSignageKiosk() {
           )}
         </main>
 
-        <footer className="p-10 text-center border-t flex justify-center items-center bg-white shrink-0">
+        <footer className="p-6 md:p-10 text-center border-t flex justify-center items-center bg-white shrink-0">
           <p className="text-md font-medium text-slate-500 tracking-wider">Signane Xpresensi v1.0.0</p>
         </footer>
 
@@ -370,11 +399,11 @@ export default function DigitalSignageKiosk() {
               <div className="w-full max-w-4xl relative">
                 <button
                   onClick={() => setShowScanner(false)}
-                  className="absolute z-[99999] top-4 right-4 text-red-600 flex items-center justify-center bg-white rounded-xl p-2 w-12 h-12 hover:brightness-95 active:scale-[0.97] shadow-2xl"
+                  className="absolute z-[99999] top-4 md:top-5 md:right-5 right-10 text-red-600 flex items-center justify-center bg-white rounded-xl p-2 w-12 h-12 hover:brightness-95 active:scale-[0.97] shadow-2xl"
                 >
                   <X size={32} />
                 </button>
-                <div id="reader-modal" className="w-full h-[80vh] aspect-square overflow-hidden bg-white rounded-3xl shadow-2xl"></div>
+                <div id="reader-modal" className="w-[90vw] mx-auto md:w-full h-[32.4vh] md:h-[80vh] aspect-square overflow-hidden bg-white shadow-2xl"></div>
               </div>
             </motion.div>
           )}
@@ -384,17 +413,41 @@ export default function DigitalSignageKiosk() {
         <AnimatePresence>
           {scannedResult && (
             <motion.div
-              initial={{ y: 200, x: "-50%", opacity: 0 }}
+              initial={{ y: 100, x: "-50%", opacity: 0 }}
               animate={{ y: 0, x: "-50%", opacity: 1 }}
-              exit={{ y: 200, x: "-50%", opacity: 0 }}
-              className={`fixed bottom-10 left-1/2 text-white px-10 py-6 rounded-2xl w-max shadow-2xl flex items-center gap-6 z-[200] ${
-                scannedResult.status ? (mode === "PULANG" ? "bg-rose-600" : "bg-blue-600") : "bg-red-700"
-              }`}
+              exit={{ y: 100, x: "-50%", opacity: 0 }}
+              className="fixed bottom-6 md:bottom-10 left-1/2 -translate-x-1/2 w-[92%] md:w-max min-w-[320px] z-[999]"
             >
-              {scannedResult.status ? <CheckCircle size={40} strokeWidth={3} /> : <X size={40} strokeWidth={3} />}
-              <div className="flex flex-col">
-                <div className="font-black text-3xl uppercase tracking-tighter">{scannedResult.status ? "TRANSAKSI BERHASIL" : "TRANSAKSI GAGAL"}</div>
-                <div className="text-lg font-bold opacity-90">{scannedResult.msg}</div>
+              <div className={`
+                flex items-center gap-4 md:gap-6 
+                px-6 py-5 md:px-10 md:py-6 
+                rounded-[2rem] shadow-[0_20px_50px_rgba(0,0,0,0.3)] 
+                text-white border border-white/10
+                ${scannedResult.status 
+                  ? (mode === "PULANG" ? "bg-rose-600" : "bg-blue-600") 
+                  : "bg-red-700"
+                }
+              `}>
+                
+                {/* Icon Section dengan Glass Effect */}
+                <div className="bg-white/20 p-2 md:p-3 rounded-2xl shrink-0 backdrop-blur-sm">
+                  {scannedResult.status ? (
+                    <CheckCircle className="w-6 h-6 md:w-12 md:h-12" strokeWidth={3} />
+                  ) : (
+                    <X className="w-6 h-6 md:w-12 md:h-12" strokeWidth={3} />
+                  )}
+                </div>
+
+                {/* Content Section */}
+                <div className="flex flex-col min-w-0 overflow-hidden">
+                  <div className="font-black text-md md:text-3xl uppercase tracking-tighter leading-none mb-1">
+                    {scannedResult.status ? "TRANSAKSI BERHASIL" : "TRANSAKSI GAGAL"}
+                  </div>
+                  <div className="text-xs md:text-lg font-bold opacity-90 leading-tight truncate">
+                    {scannedResult.msg}
+                  </div>
+                </div>
+
               </div>
             </motion.div>
           )}

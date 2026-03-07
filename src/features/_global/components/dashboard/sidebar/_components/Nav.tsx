@@ -38,7 +38,7 @@ const NavItem = React.memo(({ isCollapsed, onClose, ...props }: NavItemPropsExte
         onClick={handleClick}
         className={({ isActive }) =>
           cn(
-            `group relative flex items-center justify-between w-full gap-3 ${isCollapsed ? 'px-2' : 'px-3'} py-2.5 mb-2 rounded-tl-full rounded-bl-full text-[13px] font-medium transition-all duration-200`,
+            `group relative flex items-center justify-between w-max md:w-full gap-3 ${isCollapsed ? 'md:pr-2 pr-12 md:pl-2 pl-4 md:px-2' : 'md:pr-3 pr-12 md:pl-4 pl-3 md:px-3'} py-2.5 mb-2 md:rounded-tl-full md:rounded-bl-full rounded-tr-full rounded-br-full md:rounded-tr-none md:rounded-br-none text-[13px] font-medium transition-all duration-200`,
             'text-white/60 hover:text-white hover:brightness-[90%]',
             isActive && 'bg-slate-200 text-blue-900 shadow-lg' // Aktif: Background terang, Teks biru
           )
@@ -72,7 +72,7 @@ const NavItem = React.memo(({ isCollapsed, onClose, ...props }: NavItemPropsExte
             {isActive && !isCollapsed && (
               <motion.div 
                 layoutId="activePill"
-                className="absolute right-0 w-1 h-6 bg-blue-600 rounded-l-full"
+                className="absolute left-0 md:left-[98%] w-1 h-6 bg-blue-600 rounded-l-full"
               />
             )}
           </div>
