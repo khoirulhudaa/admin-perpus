@@ -1,6 +1,6 @@
 import { Button, cn } from '@/core/libs';
 import { useProfile } from '@/features/profile';
-import { Maximize, Menu, Minimize } from 'lucide-react';
+import { Maximize, Menu, Minimize, Tv } from 'lucide-react';
 import React, { PropsWithChildren, useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom'; // Import ini penting
 import { Sidebar } from './sidebar';
@@ -24,7 +24,7 @@ export const DashboardLayout = React.memo(({ menus = [], usermenus, children, ..
 
   // 1. Tambahkan pengecekan untuk path signage
   // Gunakan 'signane' sesuai dengan navigate('/signane') di button kamu
-  const isFullPage = location.pathname === '/scan-qrcode' || location.pathname === '/signane';
+  const isFullPage = location.pathname === '/scan-qrcode' || location.pathname === '/signane' || location.pathname === '/perpus-tv';
 
   useEffect(() => {
     if (isFullPage) {
@@ -108,7 +108,18 @@ export const DashboardLayout = React.memo(({ menus = [], usermenus, children, ..
               >
                 <Maximize className="h-4 w-4" />
                 <span className="text-[11px] font-bold uppercase tracking-wider">
-                   Mode Signage
+                   Mode Signane
+                </span>
+              </Button>
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => {navigate('/perpus-tv')}}
+                className="flex items-center md:ml-0 ml-2 gap-2 px-3 py-1.5 rounded-md md:rounded-lg transition-all text-slate-600 hover:bg-slate-100 hover:text-blue-600 border border-slate-200 shadow-sm bg-white"
+              >
+                <Tv className="h-4 w-4" />
+                <span className="text-[11px] font-bold uppercase tracking-wider">
+                   Mode Perpus-TV
                 </span>
               </Button>
             </div>

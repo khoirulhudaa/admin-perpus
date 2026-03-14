@@ -137,6 +137,7 @@ import { MemberLanding } from "../member/pages/index.js";
 import { InventoryLanding } from "../inventory/pages/index.js";
 import { SerialLanding } from "../serial/pages/index.js";
 import { SettingMain } from "../setting/pages/index.js";
+import { TVLanding } from "../tv/pages/index.js";
 const router = createBrowserRouter(
   [
     {
@@ -408,6 +409,10 @@ const router = createBrowserRouter(
         {
           path: "signane",
           element: <SignaneLanding />,
+        },
+        {
+          path: "perpus-tv",
+          element: <TVLanding />,
         },
         {
           path: "eksemplar",
