@@ -324,7 +324,7 @@ export const LoginPage = () => {
                   imageSettings={{ src: "/logo-icon.png", height: 30, width: 30, excavate: true }}
                 />
               </div>
-              {!isQrAuthenticated && (
+              {isQrAuthenticated && (
                 <div className="absolute inset-0 bg-white/90 backdrop-blur-sm rounded-2xl flex flex-col items-center justify-center z-10 animate-in fade-in">
                   <div className="w-12 h-12 bg-green-500 text-white rounded-full flex items-center justify-center mb-2 animate-bounce">
                     <Monitor size={24} />

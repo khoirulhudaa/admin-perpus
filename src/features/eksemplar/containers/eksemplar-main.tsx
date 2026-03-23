@@ -152,7 +152,7 @@ export default function EksemplarMain() {
           <button 
             onClick={() => refetch()} 
             disabled={isFetching}
-            className="h-14 w-14 flex items-center justify-center bg-blue-600 text-white rounded-2xl shadow-sm border border-slate-200 hover:bg-slate-50 hover:text-blue-600 transition-all active:rotate-180 duration-500 disabled:opacity-50"
+            className="h-14 w-14 flex items-center justify-center bg-blue-600 text-white rounded-2xl shadow-sm border border-slate-200 hover:bg-blue-700 hover:text-blue-600 transition-all active:rotate-180 duration-500 disabled:opacity-50"
             title="Refresh Data"
           >
             <RotateCw size={20} className={isFetching ? "animate-spin" : ""} />

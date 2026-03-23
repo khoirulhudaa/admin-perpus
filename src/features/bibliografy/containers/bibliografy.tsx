@@ -68,6 +68,16 @@ export default function BibliographyMain() {
   const schoolQuery = useSchool();
   const schoolId = schoolQuery?.data?.[0]?.id;
 
+  const { data: genreList } = useQuery({
+    queryKey: ["genre", schoolId],
+    queryFn: async () => {
+      const res = await fetch(`${BASE_URL}/genre?schoolId=${schoolId}`);
+      const json = await res.json();
+      return json;
+    },
+    enabled: !!schoolId, // Hanya jalan jika schoolId sudah ada
+  });
+
   // UI States
   const [searchTerm, setSearchTerm] = useState("");
   const [filterYear, setFilterYear] = useState("");
@@ -121,6 +131,7 @@ export default function BibliographyMain() {
     payload.append("publishYear", formData.get("publishYear") as string);
     payload.append("edition", formData.get("edition") as string);
     payload.append("schoolId", schoolId?.toString() || "");
+    payload.append("genreId", formData.get("genreId") as string);
     
     const imgInput = form.querySelector('input[name="image"]') as HTMLInputElement;
     const fileInput = form.querySelector('input[name="fileAtt"]') as HTMLInputElement;
@@ -171,7 +182,7 @@ export default function BibliographyMain() {
             <button 
               onClick={() => refetch()} 
               disabled={isFetching}
-              className="h-14 w-14 flex items-center justify-center bg-blue-600 text-white rounded-2xl shadow-sm border border-slate-200 hover:bg-slate-50 hover:text-blue-600 transition-all disabled:opacity-50"
+              className="h-14 w-14 flex items-center justify-center bg-blue-600 text-white rounded-2xl shadow-sm border border-slate-200 hover:bg-blue-700 hover:text-blue-600 transition-all disabled:opacity-50"
             >
               <RotateCw size={20} className={isFetching ? "animate-spin" : ""} />
             </button>
@@ -300,6 +311,20 @@ export default function BibliographyMain() {
                   <div className="grid grid-cols-2 gap-4">
                     <Field label="Tahun Terbit"><Input name="publishYear" type="number" defaultValue={selectedBook?.publishYear || 2026} /></Field>
                     <Field label="ISBN / ISSN"><Input name="isbn" defaultValue={selectedBook?.isbnIssn} placeholder="978-..." /></Field>
+                  </div>
+                  <div className="grid grid-cols-1 gap-4">
+                    <Field label="Genre / Subjek">
+                      <select 
+                        name="genreId" 
+                        defaultValue={selectedBook?.genreId}
+                        className="w-full bg-slate-100 border-none text-black placeholder:text-slate-600 rounded-2xl px-6 py-4 text-sm font-bold appearance-none cursor-pointer"
+                      >
+                        <option value="" className="text-slate-700">-- Pilih Genre --</option>
+                        {genreList?.data?.map((g: any) => (
+                          <option key={g.genreId} value={g.genreId}>{g.name} ({g.code})</option>
+                        ))}
+                      </select>
+                    </Field>
                   </div>
 
                 <div className="p-6 bg-blue-50/50 rounded-[2.5rem] border border-blue-100 space-y-8">

@@ -20,6 +20,12 @@ export const MENU_STAFF: VokadashProps["menus"] = [
     main: false,
   },
   {
+    title: "Daftar Genre", // 11 karakter
+    url: "/genre",
+    icon: "Stars",
+    main: false,
+  },
+  {
     title: "Kendali Serial", // 12 karakter
     url: "/kendali-serial",
     icon: "Newspaper",
