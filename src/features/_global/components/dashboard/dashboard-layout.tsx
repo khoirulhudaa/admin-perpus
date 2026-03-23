@@ -1,6 +1,6 @@
 import { Button, cn } from '@/core/libs';
 import { useProfile } from '@/features/profile';
-import { Maximize, Menu, Minimize, Tv } from 'lucide-react';
+import { Maximize, Minimize } from 'lucide-react';
 import React, { PropsWithChildren, useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom'; // Import ini penting
 import { Sidebar } from './sidebar';
@@ -111,7 +111,7 @@ export const DashboardLayout = React.memo(({ menus = [], usermenus, children, ..
                    Mode Signane
                 </span>
               </Button>
-              <Button
+              {/* <Button
                 variant="ghost"
                 size="sm"
                 onClick={() => {navigate('/perpus-tv')}}
@@ -121,7 +121,7 @@ export const DashboardLayout = React.memo(({ menus = [], usermenus, children, ..
                 <span className="text-[11px] font-bold uppercase tracking-wider">
                    Mode Perpus-TV
                 </span>
-              </Button>
+              </Button> */}
             </div>
             
             <div className="md:hidden">

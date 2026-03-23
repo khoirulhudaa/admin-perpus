@@ -1,43 +1,7 @@
-// import axios from 'axios';
-// import { useState } from 'react';
-
-// const API_AUTH = "http://localhost:5010/auth";
-
-// export const useAuth = () => {
-//   const [isLoading, setIsLoading] = useState(false);
-
-//   const login = async (payload: any) => {
-//     setIsLoading(true);
-//     try {
-//       const res = await axios.post(`${API_AUTH}/login`, payload);
-//       return res.data; // Mengembalikan { success: true, token, user }
-//     } finally {
-//       setIsLoading(false);
-//     }
-//   };
-
-//   const register = async (formData: FormData) => {
-//     setIsLoading(true);
-//     try {
-//       const res = await axios.post(`${API_AUTH}/register`, formData, {
-//         headers: { 'Content-Type': 'multipart/form-data' }
-//       });
-//       return res.data;
-//     } finally {
-//       setIsLoading(false);
-//     }
-//   };
-
-//   return { login, register, isLoading };
-// };
-
-
-// hooks/useAuth.ts
-// hooks/useAuth.ts
+import { storage } from "@itokun99/secure-storage"; // IMPORT INI WAJIB
 import axios from 'axios';
 import { useCallback, useState } from 'react';
 import { getToken, saveToken } from '../utils'; // IMPORT INI WAJIB
-import { storage } from "@itokun99/secure-storage"; // IMPORT INI WAJIB
 
 // const API_AUTH = "http://localhost:5010/auth";
 const API_AUTH = "https://be-school.kiraproject.id/auth";

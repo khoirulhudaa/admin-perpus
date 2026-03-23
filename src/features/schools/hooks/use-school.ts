@@ -90,19 +90,21 @@ export const useSchool = () => {
   // Ambil data dari useProfile yang sudah kita buat sebelumnya
   const { user, query, isLoading: profileLoading } = useProfile();
 
-  console.log(user)
+  console.log('user', user)
 
   // Kita bungkus data sekolah dari profil ke dalam array []
   // Karena HomePage lama mengharapkan output berupa array: const school = schools?.[0];
   const data = useMemo(() => {
     if (!user || !user.sekolah) return [];
+
+    console.log('user roe', user.role)
     
     // Sesuaikan mapping agar nama field dari backend localhost pas dengan UI
     return [{
-      id: user.sekolah.id,
-      namaSekolah: user.sekolah.namaSekolah,
+      id: user.role === 'admin' ? user.id : user.sekolah.id,
+      namaSekolah: user.role === 'admin' ? user.schoolName : user.sekolah.namaSekolah,
       npsn: user.sekolah.npsn,
-      adminName: user.name,
+      adminName: user.role === 'admin' ? user.username : user.name,
       email: user.email,
       address: user.sekolah.address,
       nameProvince: user.sekolah.nameProvince || "DKI Jakarta", // dummy jika null

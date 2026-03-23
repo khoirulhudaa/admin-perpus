@@ -88,11 +88,17 @@ export const useProfile = () => {
       const res = await axios.get("https://be-school.kiraproject.id/auth/profile", {
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
       });
-      return res.data.data; // Mengambil object { id, name, sekolah, ... }
+      if (res.data && res.data.data) {
+        return res.data.data;
+      }
+
+      // Jika backend mengirim { name: '...' } langsung di body
+      return res.data;
+      // return res.data.data; // Mengambil object { id, name, sekolah, ... }
     },
     enabled: auth.isAuthenticated()
   });
-
+  
   const profileData = query.data;
 
   return {

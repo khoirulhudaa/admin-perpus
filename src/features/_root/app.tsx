@@ -410,10 +410,10 @@ const router = createBrowserRouter(
           path: "signane",
           element: <SignaneLanding />,
         },
-        {
-          path: "perpus-tv",
-          element: <TVLanding />,
-        },
+        // {
+        //   path: "perpus-tv",
+        //   element: <TVLanding />,
+        // },
         {
           path: "eksemplar",
           element: <EksemplarLanding />,
